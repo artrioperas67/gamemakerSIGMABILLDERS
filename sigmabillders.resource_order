@@ -45,5 +45,6 @@
     {"name":"spr_taifu","order":2,"path":"sprites/spr_taifu/spr_taifu.yy",},
     {"name":"spr_tiro_auro","order":6,"path":"sprites/spr_tiro_auro/spr_tiro_auro.yy",},
     {"name":"spr_tiro_nave","order":2,"path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",},
+    {"name":"spr_vagina","order":12,"path":"sprites/spr_vagina/spr_vagina.yy",},
   ],
 }
