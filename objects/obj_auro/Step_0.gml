@@ -1,22 +1,36 @@
-var spd = 10;
 
-var rightK = keyboard_check(vk_right) or keyboard_check(ord("D"));
-var leftK  = keyboard_check(vk_left) or keyboard_check(ord("A"));
-var upK    = keyboard_check(vk_up) or keyboard_check(ord("W"));
-var downK  = keyboard_check(vk_down) or keyboard_check(ord("S"));
 
-var xspd = (rightK - leftK);
-var yspd = (downK - upK);
 
-var len = point_distance(0, 0, xspd, yspd);
-if (len > 0) 
-{
-    xspd /= len;
-    yspd /= len;
+if (!is_dead) {
+    var hmove = keyboard_check(vk_right) - keyboard_check(vk_left);
+    var vmove = keyboard_check(vk_down) - keyboard_check(vk_up);
+
+    x += hmove * move_speed;
+    y += vmove * move_speed;
 }
 
-var nx = x + xspd * spd;
-var ny = y + yspd * spd;
 
-if (!place_meeting(nx, y, obj_limite)) x = nx;
-if (!place_meeting(x, ny, obj_limite)) y = ny;
+if (invincible && !is_dead) {
+    inv_timer -= 1;
+
+    blink_timer++;
+    if (blink_timer >= blink_speed) {
+        blink_timer = 0;
+        visible_for_blink = !visible_for_blink;
+    }
+
+    if (inv_timer <= 0) {
+        invincible = false;
+        visible_for_blink = true;
+    }
+} else {
+    visible_for_blink = true;
+}
+
+
+if (is_dead) {
+
+    if (image_index >= image_number - 1) {
+        room_goto(rm_gameover);
+    }
+}

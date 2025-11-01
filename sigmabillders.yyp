@@ -40,6 +40,7 @@
   "resources":[
     {"id":{"name":"obj_auro_morrendo","path":"objects/obj_auro_morrendo/obj_auro_morrendo.yy",},},
     {"id":{"name":"obj_auro","path":"objects/obj_auro/obj_auro.yy",},},
+    {"id":{"name":"obj_balainimiga","path":"objects/obj_balainimiga/obj_balainimiga.yy",},},
     {"id":{"name":"obj_birdboy","path":"objects/obj_birdboy/obj_birdboy.yy",},},
     {"id":{"name":"obj_energia","path":"objects/obj_energia/obj_energia.yy",},},
     {"id":{"name":"obj_inimigo_fogo","path":"objects/obj_inimigo_fogo/obj_inimigo_fogo.yy",},},
@@ -51,8 +52,10 @@
     {"id":{"name":"obj_tiro_nave","path":"objects/obj_tiro_nave/obj_tiro_nave.yy",},},
     {"id":{"name":"fase1","path":"rooms/fase1/fase1.yy",},},
     {"id":{"name":"primeira_cutscene","path":"rooms/primeira_cutscene/primeira_cutscene.yy",},},
+    {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"spr_auro_morrendo","path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},},
     {"id":{"name":"spr_auro","path":"sprites/spr_auro/spr_auro.yy",},},
+    {"id":{"name":"spr_bala","path":"sprites/spr_bala/spr_bala.yy",},},
     {"id":{"name":"spr_birdboy","path":"sprites/spr_birdboy/spr_birdboy.yy",},},
     {"id":{"name":"spr_cutscene","path":"sprites/spr_cutscene/spr_cutscene.yy",},},
     {"id":{"name":"spr_energia","path":"sprites/spr_energia/spr_energia.yy",},},
@@ -78,6 +81,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"fase1","path":"rooms/fase1/fase1.yy",},},
     {"roomId":{"name":"primeira_cutscene","path":"rooms/primeira_cutscene/primeira_cutscene.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

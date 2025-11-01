@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_status",
+  "%Name":"obj_balainimiga",
   "eventList":[],
   "managed":true,
-  "name":"obj_status",
+  "name":"obj_balainimiga",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -23,14 +23,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"vida","filters":[],"listItems":[],"multiselect":false,"name":"vida","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"variable_name","filters":[],"listItems":[],"multiselect":false,"name":"variable_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bala",
+    "path":"sprites/spr_bala/spr_bala.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
