@@ -1,3 +1,5 @@
+
+
 if (is_dead) {
     if (instance_exists(other)) with (other) instance_destroy();
     exit;
@@ -13,7 +15,7 @@ if (!invincible) {
         is_dead = true;
         invincible = false;
         sprite_index = sprite_explosion;
-        image_speed = 0.4;
+        image_speed = 1200;
         image_index = 0;
         exit;
     }
