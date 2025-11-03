@@ -55,5 +55,6 @@
     {"name":"spr_tiro_nave","order":2,"path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",},
     {"name":"spr_vagina","order":12,"path":"sprites/spr_vagina/spr_vagina.yy",},
     {"name":"spr_vida","order":13,"path":"sprites/spr_vida/spr_vida.yy",},
+    {"name":"Sprite25","order":4,"path":"sprites/Sprite25/Sprite25.yy",},
   ],
 }

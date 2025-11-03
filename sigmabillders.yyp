@@ -77,6 +77,7 @@
     {"id":{"name":"spr_tiro_nave","path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",},},
     {"id":{"name":"spr_vagina","path":"sprites/spr_vagina/spr_vagina.yy",},},
     {"id":{"name":"spr_vida","path":"sprites/spr_vida/spr_vida.yy",},},
+    {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
