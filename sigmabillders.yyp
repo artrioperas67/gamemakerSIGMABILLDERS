@@ -53,12 +53,15 @@
     {"id":{"name":"fase1","path":"rooms/fase1/fase1.yy",},},
     {"id":{"name":"primeira_cutscene","path":"rooms/primeira_cutscene/primeira_cutscene.yy",},},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"cusujo","path":"sprites/cusujo/cusujo.yy",},},
+    {"id":{"name":"maconha","path":"sprites/maconha/maconha.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_auro_morrendo","path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},},
     {"id":{"name":"spr_auro","path":"sprites/spr_auro/spr_auro.yy",},},
-    {"id":{"name":"spr_bala","path":"sprites/spr_bala/spr_bala.yy",},},
     {"id":{"name":"spr_birdboy","path":"sprites/spr_birdboy/spr_birdboy.yy",},},
     {"id":{"name":"spr_cutscene","path":"sprites/spr_cutscene/spr_cutscene.yy",},},
-    {"id":{"name":"spr_energia","path":"sprites/spr_energia/spr_energia.yy",},},
     {"id":{"name":"spr_fundo_baixo","path":"sprites/spr_fundo_baixo/spr_fundo_baixo.yy",},},
     {"id":{"name":"spr_fundo_cima","path":"sprites/spr_fundo_cima/spr_fundo_cima.yy",},},
     {"id":{"name":"spr_fundo_direita","path":"sprites/spr_fundo_direita/spr_fundo_direita.yy",},},
@@ -73,8 +76,6 @@
     {"id":{"name":"spr_taifu","path":"sprites/spr_taifu/spr_taifu.yy",},},
     {"id":{"name":"spr_tiro_auro","path":"sprites/spr_tiro_auro/spr_tiro_auro.yy",},},
     {"id":{"name":"spr_tiro_nave","path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",},},
-    {"id":{"name":"spr_vagina","path":"sprites/spr_vagina/spr_vagina.yy",},},
-    {"id":{"name":"spr_vida","path":"sprites/spr_vida/spr_vida.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
