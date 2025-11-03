@@ -35,6 +35,7 @@
     {"name":"primeira_cutscene","order":1,"path":"rooms/primeira_cutscene/primeira_cutscene.yy",},
     {"name":"rm_gameover","order":2,"path":"rooms/rm_gameover/rm_gameover.yy",},
     {"name":"cusujo","order":16,"path":"sprites/cusujo/cusujo.yy",},
+    {"name":"maconha","order":3,"path":"sprites/maconha/maconha.yy",},
     {"name":"spr_auro_morrendo","order":7,"path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},
     {"name":"spr_auro","order":3,"path":"sprites/spr_auro/spr_auro.yy",},
     {"name":"spr_bala","order":15,"path":"sprites/spr_bala/spr_bala.yy",},
