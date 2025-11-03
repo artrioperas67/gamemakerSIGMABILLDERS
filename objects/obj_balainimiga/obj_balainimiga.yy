@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_bala",
-    "path":"sprites/spr_bala/spr_bala.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
