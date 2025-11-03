@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_energia",
-    "path":"sprites/spr_energia/spr_energia.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
