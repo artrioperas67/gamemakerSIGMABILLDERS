@@ -6,8 +6,8 @@
   "name":"obj_balainimiga",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"obj_projeteis",
+    "path":"folders/Objetos/obj_projeteis.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bala",
-    "path":"sprites/spr_bala/spr_bala.yy",
+    "name":"spr_balainimiga",
+    "path":"sprites/spr_balainimiga/spr_balainimiga.yy",
   },
   "spriteMaskId":null,
   "visible":true,

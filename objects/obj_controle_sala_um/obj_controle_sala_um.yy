@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_energia",
-  "eventList":[],
+  "%Name":"obj_controle_sala_um",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_energia",
+  "name":"obj_controle_sala_um",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_projeteis",
-    "path":"folders/Objetos/obj_projeteis.yy",
+    "name":"obj_salas_controles",
+    "path":"folders/Objetos/obj_salas_controles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_energia",
-    "path":"sprites/spr_energia/spr_energia.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
