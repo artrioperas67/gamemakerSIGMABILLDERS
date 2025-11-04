@@ -29,3 +29,6 @@ top_bound = 6;
 bottom_bound = 1496;
 
 move_speed = 6;
+
+move_x = 0;
+move_y = 0;

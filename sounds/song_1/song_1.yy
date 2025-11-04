@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":89.141335,
+  "duration":0.0,
   "name":"song_1",
   "parent":{
     "name":"Sons",

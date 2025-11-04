@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_balainimiga",
+  "%Name":"obj_controle",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_balainimiga",
+  "name":"obj_controle",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_projeteis",
-    "path":"folders/Objetos/obj_projeteis.yy",
+    "name":"obj_salas_controles",
+    "path":"folders/Objetos/obj_salas_controles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_balainimiga",
-    "path":"sprites/spr_balainimiga/spr_balainimiga.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
