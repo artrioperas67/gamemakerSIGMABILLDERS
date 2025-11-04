@@ -27,6 +27,7 @@
     {"name":"obj_energia","order":10,"path":"objects/obj_energia/obj_energia.yy",},
     {"name":"obj_inimigo_fogo","order":2,"path":"objects/obj_inimigo_fogo/obj_inimigo_fogo.yy",},
     {"name":"obj_limite","order":3,"path":"objects/obj_limite/obj_limite.yy",},
+    {"name":"obj_mask_control","order":13,"path":"objects/obj_mask_control/obj_mask_control.yy",},
     {"name":"obj_nave_explosao","order":7,"path":"objects/obj_nave_explosao/obj_nave_explosao.yy",},
     {"name":"obj_nave","order":1,"path":"objects/obj_nave/obj_nave.yy",},
     {"name":"obj_status","order":11,"path":"objects/obj_status/obj_status.yy",},

@@ -45,6 +45,7 @@
     {"id":{"name":"obj_energia","path":"objects/obj_energia/obj_energia.yy",},},
     {"id":{"name":"obj_inimigo_fogo","path":"objects/obj_inimigo_fogo/obj_inimigo_fogo.yy",},},
     {"id":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},},
+    {"id":{"name":"obj_mask_control","path":"objects/obj_mask_control/obj_mask_control.yy",},},
     {"id":{"name":"obj_nave_explosao","path":"objects/obj_nave_explosao/obj_nave_explosao.yy",},},
     {"id":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},},
     {"id":{"name":"obj_status","path":"objects/obj_status/obj_status.yy",},},
