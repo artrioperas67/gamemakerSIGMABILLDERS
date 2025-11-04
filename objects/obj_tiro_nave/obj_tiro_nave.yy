@@ -12,8 +12,8 @@
   "name":"obj_tiro_nave",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_projeteis",
-    "path":"folders/Objetos/obj_projeteis.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

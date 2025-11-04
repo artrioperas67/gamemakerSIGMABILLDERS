@@ -10,8 +10,8 @@
   "name":"obj_birdboy",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_personagens",
-    "path":"folders/Objetos/obj_personagens.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

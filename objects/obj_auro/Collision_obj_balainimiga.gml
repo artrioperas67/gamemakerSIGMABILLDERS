@@ -1,30 +1,21 @@
+/// Collision Event with obj_enemy_bullet
 
+// Always destroy the bullet when it hits
+instance_destroy(other);
 
-if (is_dead) {
-    if (instance_exists(other)) with (other) instance_destroy();
-    exit;
-}
-
-if (!invincible) {
+// Only apply damage if player is vulnerable
+if (!is_dead && !invincible) {
     hp -= 1;
-    hp = max(hp, 0);
-    if (instance_exists(other)) with (other) instance_destroy();
 
     if (hp <= 0) {
-
         is_dead = true;
+        sprite_index = spr_auro_morrendo;
+        image_speed = 0.4;
+        image_alpha = 1;
         invincible = false;
-        sprite_index = sprite_explosion;
-        image_speed = 1200;
-        image_index = 0;
-        exit;
+    } else {
+        invincible = true;
+        inv_timer = 60;
+        blink_timer = 0;
     }
-
-    invincible = true;
-    inv_timer = 60; 
-    blink_timer = 0;
-    visible_for_blink = true;
-}
-else {
-    if (instance_exists(other)) with (other) instance_destroy();
 }
