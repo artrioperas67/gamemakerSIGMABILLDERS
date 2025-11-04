@@ -3,11 +3,11 @@ moveSpd = 2;
 xspd = 0;
 yspd = 0;
 
-inimigos = 0 
+hp = 5;
+max_hp = 5;
 
-/// Create Event
-// Health system
-hp = 3;
+hp = 5;
+max_hp = 5;
 
 // Invincibility system
 invincible = false;
@@ -29,3 +29,6 @@ top_bound = 6;
 bottom_bound = 1496;
 
 move_speed = 6;
+
+move_x = 0;
+move_y = 0;

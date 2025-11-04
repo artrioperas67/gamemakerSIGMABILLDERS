@@ -1,11 +1,13 @@
-if (is_dead) {
-    hspeed = 0;
-    vspeed = 0;
-    exit;
-}
+if (!is_dead) {
+    var hmove = keyboard_check(vk_right) - keyboard_check(vk_left);
+    var vmove = keyboard_check(vk_down) - keyboard_check(vk_up);
 
-var move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
-var move_y = keyboard_check(vk_down) - keyboard_check(vk_up);
+    x += hmove * move_speed;
+    y += vmove * move_speed;
+
+    if (hmove < 0) image_xscale = -1; 
+    if (hmove > 0) image_xscale = 1;  
+}
 
 // Normalize diagonal movement
 if (move_x != 0 && move_y != 0) {
@@ -38,5 +40,17 @@ if (invincible) {
         image_alpha = 1;
     }
 } else {
-    image_alpha = 1;
+    visible_for_blink = true;
+}
+
+
+if (is_dead) {
+
+    if (image_index >= image_number - 1) {
+        room_goto(rm_gameover);
+    }
+}
+
+if (room == rm_gameover && keyboard_check_pressed(vk_enter)) {
+    game_restart();
 }
