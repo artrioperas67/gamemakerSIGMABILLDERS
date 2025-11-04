@@ -27,6 +27,7 @@
     {"name":"obj_energia","order":10,"path":"objects/obj_energia/obj_energia.yy",},
     {"name":"obj_inimigo_fogo","order":2,"path":"objects/obj_inimigo_fogo/obj_inimigo_fogo.yy",},
     {"name":"obj_limite","order":3,"path":"objects/obj_limite/obj_limite.yy",},
+    {"name":"obj_mask_control","order":13,"path":"objects/obj_mask_control/obj_mask_control.yy",},
     {"name":"obj_nave_explosao","order":7,"path":"objects/obj_nave_explosao/obj_nave_explosao.yy",},
     {"name":"obj_nave","order":1,"path":"objects/obj_nave/obj_nave.yy",},
     {"name":"obj_status","order":11,"path":"objects/obj_status/obj_status.yy",},
@@ -34,11 +35,9 @@
     {"name":"obj_tiro_nave","order":4,"path":"objects/obj_tiro_nave/obj_tiro_nave.yy",},
     {"name":"primeira_cutscene","order":1,"path":"rooms/primeira_cutscene/primeira_cutscene.yy",},
     {"name":"rm_gameover","order":2,"path":"rooms/rm_gameover/rm_gameover.yy",},
-<<<<<<< Updated upstream
-=======
     {"name":"cusujo","order":16,"path":"sprites/cusujo/cusujo.yy",},
     {"name":"maconha","order":3,"path":"sprites/maconha/maconha.yy",},
->>>>>>> Stashed changes
+    {"name":"sa","order":4,"path":"sprites/sa/sa.yy",},
     {"name":"spr_auro_morrendo","order":7,"path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},
     {"name":"spr_auro","order":3,"path":"sprites/spr_auro/spr_auro.yy",},
     {"name":"spr_birdboy","order":4,"path":"sprites/spr_birdboy/spr_birdboy.yy",},

@@ -1,28 +1,15 @@
-if (is_dead) {
-    if (instance_exists(other)) with (other) instance_destroy();
-    exit;
-}
-
-if (!invincible) {
+if (!is_dead && !invincible) {
     hp -= 1;
-    hp = max(hp, 0);
-    if (instance_exists(other)) with (other) instance_destroy();
 
     if (hp <= 0) {
-
         is_dead = true;
-        invincible = false;
-        sprite_index = sprite_explosion;
+        sprite_index = spr_auro_morrendo;
         image_speed = 0.4;
-        image_index = 0;
-        exit;
+        image_alpha = 1;
+        invincible = false;
+    } else {
+        invincible = true;
+        inv_timer = 60;
+        blink_timer = 0;
     }
-
-    invincible = true;
-    inv_timer = 60; 
-    blink_timer = 0;
-    visible_for_blink = true;
-}
-else {
-    if (instance_exists(other)) with (other) instance_destroy();
 }
