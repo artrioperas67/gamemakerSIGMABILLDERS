@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_reset_game",
   "bboxMode":0,
   "bbox_bottom":649,
