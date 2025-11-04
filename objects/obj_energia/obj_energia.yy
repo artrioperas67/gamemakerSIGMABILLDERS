@@ -6,8 +6,8 @@
   "name":"obj_energia",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"obj_projeteis",
+    "path":"folders/Objetos/obj_projeteis.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_energia",
+    "path":"sprites/spr_energia/spr_energia.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
