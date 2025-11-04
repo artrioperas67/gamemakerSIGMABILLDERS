@@ -26,8 +26,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"vida","filters":[],"listItems":[],"multiselect":false,"name":"vida","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"variable_name","filters":[],"listItems":[],"multiselect":false,"name":"variable_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"vida","filters":[],"listItems":[],"multiselect":false,"name":"vida","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"variable_name","filters":[],"listItems":[],"multiselect":false,"name":"variable_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
