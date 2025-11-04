@@ -9,13 +9,23 @@ max_hp = 5;
 hp = 5;
 max_hp = 5;
 
+// Invincibility system
 invincible = false;
-inv_timer = 0;     
-blink_speed = 6;
+inv_timer = 0;
 blink_timer = 0;
-visible_for_blink = true;
 
+// Death system
 is_dead = false;
-sprite_normal = obj_auro;
-sprite_explosion = spr_auro_morrendo;
-move_speed = 10;
+
+// Sprite setup
+sprite_index = spr_auro;
+image_speed = 1;
+image_alpha = 1;
+
+// Playable area boundaries
+left_bound = 91;
+right_bound = 874;
+top_bound = 6;
+bottom_bound = 1496;
+
+move_speed = 6;

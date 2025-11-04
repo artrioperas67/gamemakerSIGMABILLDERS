@@ -1,10 +1,2 @@
-
-
-if (is_dead) {
-    draw_self();
-} else {
-    if (visible_for_blink) {
-        draw_self();
-    }
-}
-
+draw_self();
+draw_text(x - 20, y - 40, "HP: " + string(hp));
