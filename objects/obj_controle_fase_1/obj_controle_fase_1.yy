@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_controle_sala_um",
+  "%Name":"obj_controle_fase_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_controle_sala_um",
+  "name":"obj_controle_fase_1",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_salas_controles",

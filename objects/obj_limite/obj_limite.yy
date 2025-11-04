@@ -6,8 +6,8 @@
   "name":"obj_limite",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"obj_salas_controles",
+    "path":"folders/Objetos/obj_salas_controles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
