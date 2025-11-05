@@ -23,8 +23,8 @@ image_speed = 1;
 image_alpha = 1;
 
 // Playable area boundaries
-left_bound = 91;
-right_bound = 874;
+left_bound = 430;
+right_bound = 1230;
 top_bound = 6;
 bottom_bound = 1496;
 
