@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"cusujo",
   "bboxMode":0,
   "bbox_bottom":46,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"b4a5b8f6-3539-4553-ba0f-5a6135c8daea","name":"b4a5b8f6-3539-4553-ba0f-5a6135c8daea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b4a5b8f6-3539-4553-ba0f-5a6135c8daea","name":"b4a5b8f6-3539-4553-ba0f-5a6135c8daea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

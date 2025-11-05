@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_tiro_nave",
   "bboxMode":0,
   "bbox_bottom":25,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"9e04dae8-1fd3-4952-aa1f-4a1a2cb68542","name":"9e04dae8-1fd3-4952-aa1f-4a1a2cb68542","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9e04dae8-1fd3-4952-aa1f-4a1a2cb68542","name":"9e04dae8-1fd3-4952-aa1f-4a1a2cb68542","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_fundo_cima",
   "bboxMode":0,
   "bbox_bottom":239,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"ed628b06-393f-4762-bdc1-b9b5eeb74be3","name":"ed628b06-393f-4762-bdc1-b9b5eeb74be3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ed628b06-393f-4762-bdc1-b9b5eeb74be3","name":"ed628b06-393f-4762-bdc1-b9b5eeb74be3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
