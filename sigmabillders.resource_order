@@ -36,6 +36,7 @@
     {"name":"rm_gameover","order":2,"path":"rooms/rm_gameover/rm_gameover.yy",},
     {"name":"rm_menu","order":3,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"rm_primeira_cutscene","order":1,"path":"rooms/rm_primeira_cutscene/rm_primeira_cutscene.yy",},
+    {"name":"Script1","order":1,"path":"scripts/Script1/Script1.yy",},
     {"name":"song_dois_ror","order":1,"path":"sounds/song_dois_ror/song_dois_ror.yy",},
     {"name":"cusujo","order":16,"path":"sprites/cusujo/cusujo.yy",},
     {"name":"spr_auro_morrendo","order":7,"path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},
