@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_nave_explosao",
+  "%Name":"obj_controle_sala_um",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_nave_explosao",
+  "name":"obj_controle_sala_um",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"obj_salas_controles",
+    "path":"folders/Objetos/obj_salas_controles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_nave_explosao",
-    "path":"sprites/spr_nave_explosao/spr_nave_explosao.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

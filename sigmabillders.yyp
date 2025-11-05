@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"sigmabillders",
   "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -22,7 +22,7 @@
     {"$GMFolder":"","%Name":"obj_personagens","folderPath":"folders/Objetos/obj_personagens.yy","name":"obj_personagens","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj_projeteis","folderPath":"folders/Objetos/obj_projeteis.yy","name":"obj_projeteis","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj_salas_controles","folderPath":"folders/Objetos/obj_salas_controles.yy","name":"obj_salas_controles","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Objetos/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sequências","folderPath":"folders/Sequências.yy","name":"Sequências","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"sigmabillders",
   "resources":[
@@ -46,9 +46,9 @@
     {"id":{"name":"obj_auro","path":"objects/obj_auro/obj_auro.yy",},},
     {"id":{"name":"obj_balainimiga","path":"objects/obj_balainimiga/obj_balainimiga.yy",},},
     {"id":{"name":"obj_birdboy","path":"objects/obj_birdboy/obj_birdboy.yy",},},
-    {"id":{"name":"obj_controle_fase_1","path":"objects/obj_controle_fase_1/obj_controle_fase_1.yy",},},
     {"id":{"name":"obj_controle_menu","path":"objects/obj_controle_menu/obj_controle_menu.yy",},},
     {"id":{"name":"obj_controle_sala_gameover","path":"objects/obj_controle_sala_gameover/obj_controle_sala_gameover.yy",},},
+    {"id":{"name":"obj_controle_sala_um","path":"objects/obj_controle_sala_um/obj_controle_sala_um.yy",},},
     {"id":{"name":"obj_energia","path":"objects/obj_energia/obj_energia.yy",},},
     {"id":{"name":"obj_inimigo_fogo","path":"objects/obj_inimigo_fogo/obj_inimigo_fogo.yy",},},
     {"id":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},},
@@ -65,10 +65,9 @@
     {"id":{"name":"song_1","path":"sounds/song_1/song_1.yy",},},
     {"id":{"name":"song_dois_ror","path":"sounds/song_dois_ror/song_dois_ror.yy",},},
     {"id":{"name":"cusujo","path":"sprites/cusujo/cusujo.yy",},},
-    {"id":{"name":"maconha","path":"sprites/maconha/maconha.yy",},},
-    {"id":{"name":"sa","path":"sprites/sa/sa.yy",},},
     {"id":{"name":"spr_auro_morrendo","path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},},
     {"id":{"name":"spr_auro","path":"sprites/spr_auro/spr_auro.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_balainimiga","path":"sprites/spr_balainimiga/spr_balainimiga.yy",},},
     {"id":{"name":"spr_birdboy","path":"sprites/spr_birdboy/spr_birdboy.yy",},},
     {"id":{"name":"spr_cutscene","path":"sprites/spr_cutscene/spr_cutscene.yy",},},
@@ -93,10 +92,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
+    {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"roomId":{"name":"rm_primeira_cutscene","path":"rooms/rm_primeira_cutscene/rm_primeira_cutscene.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

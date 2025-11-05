@@ -11,8 +11,8 @@
   "name":"obj_mask_control",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_salas_controles",
-    "path":"folders/Objetos/obj_salas_controles.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
