@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 if (mouse_check_button_pressed(mb_left)) {
     switch (selecionado) {
         case 0:
@@ -13,4 +11,3 @@ if (mouse_check_button_pressed(mb_left)) {
             break;
     }
 }
->>>>>>> ee9d86f411a05c616fb30adc6957826ea4dc8953
