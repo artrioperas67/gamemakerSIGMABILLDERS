@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD:sprites/spr_macacodeitadinho/spr_macacodeitadinho.yy
+  "$GMSprite":"",
+  "%Name":"spr_macacodeitadinho",
+=======
   "$GMSprite":"v2",
   "%Name":"spr_fundo_fase_1",
+>>>>>>> aea3a90d7ddd8b4a2077cdbc2e5180cda37e6f64:sprites/spr_fundo_fase_1/spr_fundo_fase_1.yy
   "bboxMode":0,
   "bbox_bottom":1279,
   "bbox_left":0,
@@ -12,7 +17,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d9d6788c-cc36-4f17-8738-b76780ac365c","name":"d9d6788c-cc36-4f17-8738-b76780ac365c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d9d6788c-cc36-4f17-8738-b76780ac365c","name":"d9d6788c-cc36-4f17-8738-b76780ac365c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
