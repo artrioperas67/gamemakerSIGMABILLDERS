@@ -46,10 +46,13 @@
     {"id":{"name":"obj_auro","path":"objects/obj_auro/obj_auro.yy",},},
     {"id":{"name":"obj_balainimiga","path":"objects/obj_balainimiga/obj_balainimiga.yy",},},
     {"id":{"name":"obj_birdboy","path":"objects/obj_birdboy/obj_birdboy.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"obj_controle_menu","path":"objects/obj_controle_menu/obj_controle_menu.yy",},},
     {"id":{"name":"obj_controle_sala_gameover","path":"objects/obj_controle_sala_gameover/obj_controle_sala_gameover.yy",},},
     {"id":{"name":"obj_controle_sala_um","path":"objects/obj_controle_sala_um/obj_controle_sala_um.yy",},},
     {"id":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},},
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"obj_energia","path":"objects/obj_energia/obj_energia.yy",},},
     {"id":{"name":"obj_inimigo_fogo","path":"objects/obj_inimigo_fogo/obj_inimigo_fogo.yy",},},
     {"id":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},},
@@ -59,6 +62,7 @@
     {"id":{"name":"obj_status","path":"objects/obj_status/obj_status.yy",},},
     {"id":{"name":"obj_tiro_auro","path":"objects/obj_tiro_auro/obj_tiro_auro.yy",},},
     {"id":{"name":"obj_tiro_nave","path":"objects/obj_tiro_nave/obj_tiro_nave.yy",},},
+    {"id":{"name":"Object14","path":"objects/Object14/Object14.yy",},},
     {"id":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},

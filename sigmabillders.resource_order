@@ -26,9 +26,12 @@
     {"name":"obj_auro_morrendo","order":2,"path":"objects/obj_auro_morrendo/obj_auro_morrendo.yy",},
     {"name":"obj_balainimiga","order":1,"path":"objects/obj_balainimiga/obj_balainimiga.yy",},
     {"name":"obj_birdboy","order":1,"path":"objects/obj_birdboy/obj_birdboy.yy",},
+<<<<<<< Updated upstream
     {"name":"obj_controle_menu","order":2,"path":"objects/obj_controle_menu/obj_controle_menu.yy",},
     {"name":"obj_controle_sala_um","order":1,"path":"objects/obj_controle_sala_um/obj_controle_sala_um.yy",},
     {"name":"obj_controle","order":3,"path":"objects/obj_controle/obj_controle.yy",},
+=======
+>>>>>>> Stashed changes
     {"name":"obj_inimigo_fogo","order":2,"path":"objects/obj_inimigo_fogo/obj_inimigo_fogo.yy",},
     {"name":"obj_mask_control","order":4,"path":"objects/obj_mask_control/obj_mask_control.yy",},
     {"name":"obj_nave_explosao","order":1,"path":"objects/obj_nave_explosao/obj_nave_explosao.yy",},

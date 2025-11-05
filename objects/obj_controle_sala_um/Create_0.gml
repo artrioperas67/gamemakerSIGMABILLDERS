@@ -1,1 +1,0 @@
-audio_play_sound (song_dois_ror, 1, true);
