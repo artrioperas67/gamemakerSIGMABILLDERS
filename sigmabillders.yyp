@@ -55,7 +55,6 @@
     {"id":{"name":"obj_status","path":"objects/obj_status/obj_status.yy",},},
     {"id":{"name":"obj_tiro_auro","path":"objects/obj_tiro_auro/obj_tiro_auro.yy",},},
     {"id":{"name":"obj_tiro_nave","path":"objects/obj_tiro_nave/obj_tiro_nave.yy",},},
-    {"id":{"name":"Object14","path":"objects/Object14/Object14.yy",},},
     {"id":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
@@ -92,8 +91,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"roomId":{"name":"rm_primeira_cutscene","path":"rooms/rm_primeira_cutscene/rm_primeira_cutscene.yy",},},
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
