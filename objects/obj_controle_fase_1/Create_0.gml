@@ -14,3 +14,5 @@ view_set_hport(0, altura);
 view_set_xport(0, 0);
 view_set_yport(0, 0);
 
+display_set_gui_size(1280, 720);
+
