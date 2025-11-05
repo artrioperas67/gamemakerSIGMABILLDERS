@@ -93,10 +93,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
+    {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"roomId":{"name":"rm_primeira_cutscene","path":"rooms/rm_primeira_cutscene/rm_primeira_cutscene.yy",},},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
