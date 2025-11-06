@@ -1,6 +1,10 @@
 if (is_dead) exit;
 
-// Garante que o jogador existe
+var half_w = sprite_get_width(sprite_index) * 0.5;
+var half_h = sprite_get_height(sprite_index) * 0.5;
+
+x = clamp(x, left_bound + half_w, right_bound - half_w);
+
 if (!instance_exists(obj_auro)) exit;
 
 // Direção até o jogador
@@ -19,3 +23,11 @@ if (fire_timer <= 0) {
     fire_timer = fire_rate;
     instance_create_layer(x, y, "Instances", obj_balainimiga);
 }
+
+if (global.jogador_morrendo) {
+    spd = 0;
+    image_speed = 0;
+	fire_rate = 0;
+    exit;
+}
+

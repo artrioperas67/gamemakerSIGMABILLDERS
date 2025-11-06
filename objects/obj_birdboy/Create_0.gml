@@ -1,16 +1,14 @@
-// Movimento
-spd = 3;
+spd = 4;
 
-// Ataque
-fire_rate = 60; // a cada 60 frames (1 segundo)
-fire_timer = irandom_range(0, fire_rate); // aleatório para não atirar tudo junto
+fire_rate = 100;
+fire_timer = irandom_range(0, fire_rate); 
 
-// Vida
 hp = 3;
 
-// Sprite inicial
 sprite_index = spr_birdboy;
 image_speed = 1;
 
-// Status
 is_dead = false;
+
+left_bound = 430;
+right_bound = 1230;
