@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_tiro_nave",
   "bboxMode":0,
   "bbox_bottom":25,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9e04dae8-1fd3-4952-aa1f-4a1a2cb68542","name":"9e04dae8-1fd3-4952-aa1f-4a1a2cb68542","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9e04dae8-1fd3-4952-aa1f-4a1a2cb68542","name":"9e04dae8-1fd3-4952-aa1f-4a1a2cb68542","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -23,10 +23,10 @@
   ],
   "name":"spr_tiro_nave",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
-    "name":"spr_seres",
-    "path":"folders/Sprites/spr_seres.yy",
+    "name":"spr_projeteis",
+    "path":"folders/Sprites/spr_projeteis.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -78,7 +78,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":80,
-    "yorigin":80,
+    "yorigin":16,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

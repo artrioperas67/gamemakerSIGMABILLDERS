@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"obj_balainimiga",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tiro_nave",
-    "path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",
+    "name":"spr_balainimiga",
+    "path":"sprites/spr_balainimiga/spr_balainimiga.yy",
   },
   "spriteMaskId":null,
   "visible":true,

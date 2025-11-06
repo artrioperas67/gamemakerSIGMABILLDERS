@@ -1,17 +1,20 @@
 menu_itens = ["jogar", "opcoes", "sair", "creditos"];
 selecionado = -1;
-fonte_menu = font_menu_inicial; // usa a fonte que tu criou no editor
+fonte_menu = font_menu_inicial;
 
+menu_sprites = [
+    spr_jogar,
+    spr_menu,
+    spr_sair,
+	spr_creditos
+];
 var largura = 1280;
 var altura = 720;
 
-// Define o tamanho da janela
 window_set_size(largura, altura);
 
-// Centraliza a janela
 window_center();
 
-// Garante que a câmera exista antes de usar
 var cam = view_camera[0];
 
 if (cam != noone) {

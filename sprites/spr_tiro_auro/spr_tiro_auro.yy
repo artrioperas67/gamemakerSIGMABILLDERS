@@ -1,7 +1,7 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_tiro_auro",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":79,
   "bbox_left":67,
   "bbox_right":77,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"880a2932-555a-4e81-acd6-6407d231d6af","name":"880a2932-555a-4e81-acd6-6407d231d6af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"80110537-0a4f-44ad-8cd0-f37bbb9e1ac8","name":"80110537-0a4f-44ad-8cd0-f37bbb9e1ac8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"880a2932-555a-4e81-acd6-6407d231d6af","name":"880a2932-555a-4e81-acd6-6407d231d6af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"80110537-0a4f-44ad-8cd0-f37bbb9e1ac8","name":"80110537-0a4f-44ad-8cd0-f37bbb9e1ac8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"spr_seres",
-    "path":"folders/Sprites/spr_seres.yy",
+    "name":"spr_projeteis",
+    "path":"folders/Sprites/spr_projeteis.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

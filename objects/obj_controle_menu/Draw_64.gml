@@ -1,33 +1,26 @@
 var mx = device_mouse_x_to_gui(0);
 var my = device_mouse_y_to_gui(0);
-draw_set_font(font_menu_inicial);
-draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
 
 var largura_gui = display_get_gui_width();
 var altura_gui = display_get_gui_height();
 
-for (var i = 0; i < array_length(menu_itens); i++) {
-    var texto = menu_itens[i];
-    var pos_y = altura_gui / 2 + (i * 40);
-    var largura_texto = string_width(texto);
-    var altura_texto = string_height(texto);
+// --- ALTERAÇÃO AQUI: usar sprites no lugar dos textos ---
+for (var i = 0; i < array_length(menu_sprites); i++) {
+    var sprite_botao = menu_sprites[i];
+    var spr_largura = sprite_get_width(sprite_botao);
+    var spr_altura = sprite_get_height(sprite_botao);
+    
+    var pos_y = altura_gui / 2 + (i * (spr_altura + 20)); // espaçamento entre botões
+    var x1 = largura_gui / 2 - spr_largura / 2;
+    var y1 = pos_y - spr_altura / 2;
+    var x2 = largura_gui / 2 + spr_largura / 2;
+    var y2 = pos_y + spr_altura / 2;
 
-    var x1 = largura_gui / 2 - largura_texto / 2;
-    var y1 = pos_y - altura_texto / 2;
-    var x2 = largura_gui / 2 + largura_texto / 2;
-    var y2 = pos_y + altura_texto / 2;
-
+    // Hover opcional (pode desativar depois se quiser)
     if (point_in_rectangle(mx, my, x1, y1, x2, y2)) {
-        draw_set_color(c_yellow);
-        draw_text_transformed(largura_gui / 2, pos_y, texto, 1.2, 1.2, 0);
+        draw_sprite_ext(sprite_botao, 0, largura_gui / 2, pos_y, 1.1, 1.1, 0, c_white, 1);
         selecionado = i;
     } else {
-        draw_set_color(c_white);
-        draw_text_transformed(largura_gui / 2, pos_y, texto, 1, 1, 0);
+        draw_sprite(sprite_botao, 0, largura_gui / 2, pos_y);
     }
 }
-
-draw_set_color(c_white);
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
