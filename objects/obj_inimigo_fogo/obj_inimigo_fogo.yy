@@ -10,8 +10,8 @@
   "name":"obj_inimigo_fogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"obj_personagens",
+    "path":"folders/Objetos/obj_personagens.yy",
   },
   "parentObjectId":null,
   "persistent":false,

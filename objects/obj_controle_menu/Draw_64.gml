@@ -1,36 +1,26 @@
-var _mx = device_mouse_x_to_gui(0);
-var _my = device_mouse_y_to_gui(0);
+var mx = device_mouse_x_to_gui(0);
+var my = device_mouse_y_to_gui(0);
 
-draw_set_font(font_menu_inicial);
-draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
+var largura_gui = display_get_gui_width();
+var altura_gui = display_get_gui_height();
 
-var tam_menu = array_length(menu_inicial);
+// --- ALTERAÇÃO AQUI: usar sprites no lugar dos textos ---
+for (var i = 0; i < array_length(menu_sprites); i++) {
+    var sprite_botao = menu_sprites[i];
+    var spr_largura = sprite_get_width(sprite_botao);
+    var spr_altura = sprite_get_height(sprite_botao);
+    
+    var pos_y = altura_gui / 2 + (i * (spr_altura + 20)); // espaçamento entre botões
+    var x1 = largura_gui / 2 - spr_largura / 2;
+    var y1 = pos_y - spr_altura / 2;
+    var x2 = largura_gui / 2 + spr_largura / 2;
+    var y2 = pos_y + spr_altura / 2;
 
-for (var i = 0; i < tam_menu; i++)
-{
-    var _wgui = display_get_gui_width();
-    var _hgui = display_get_gui_height();
-
-    var _hstr = string_height("I");
-    var _wstr = string_width(menu_inicial[i]);
-
-    // limites do botão
-    var x1 = _wgui / 2 - _wstr / 2;
-    var y1 = _hgui / 2 - _hstr / 2 + _hstr * i * 2;
-    var x2 = _wgui / 2 + _wstr / 2;
-    var y2 = _hgui / 2 + _hstr / 2 + _hstr * i * 2;
-
-    // verifica se o mouse está em cima
-    if (point_in_rectangle(_mx, _my, x1, y1, x2, y2))
-        esc = 1.4;
-    else
-        esc = 1;
-
-    // desenha o texto com escala
-    draw_text_transformed(_wgui / 2, _hgui / 2 + _hstr * i * 2, menu_inicial[i], esc, esc, 0);
+    // Hover opcional (pode desativar depois se quiser)
+    if (point_in_rectangle(mx, my, x1, y1, x2, y2)) {
+        draw_sprite_ext(sprite_botao, 0, largura_gui / 2, pos_y, 1.1, 1.1, 0, c_white, 1);
+        selecionado = i;
+    } else {
+        draw_sprite(sprite_botao, 0, largura_gui / 2, pos_y);
+    }
 }
-
-draw_set_font(-1);
-draw_set_halign(-1);
-draw_set_valign(-1);
