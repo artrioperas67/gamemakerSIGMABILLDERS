@@ -8,8 +8,8 @@
   "name":"obj_auro_morrendo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"obj_personagens",
+    "path":"folders/Objetos/obj_personagens.yy",
   },
   "parentObjectId":null,
   "persistent":false,

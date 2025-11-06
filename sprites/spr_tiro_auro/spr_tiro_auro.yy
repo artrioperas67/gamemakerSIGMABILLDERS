@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"spr_tiro_auro",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":79,
   "bbox_left":67,
   "bbox_right":77,
@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"spr_seres",
-    "path":"folders/Sprites/spr_seres.yy",
+    "name":"spr_projeteis",
+    "path":"folders/Sprites/spr_projeteis.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

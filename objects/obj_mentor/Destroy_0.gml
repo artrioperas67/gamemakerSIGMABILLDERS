@@ -1,0 +1,1 @@
+effect_create_above(ef_cloud,x,y,10, c_white)

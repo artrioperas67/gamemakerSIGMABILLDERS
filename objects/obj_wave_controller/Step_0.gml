@@ -1,4 +1,7 @@
-if (!wave_ativa) {
+if (!global.tutorial_finished) {
+    exit; 
+}
+if (!wave_ativa == 1) {
     tempo_wave++;
 
     if (tempo_wave >= intervalo_wave && wave <= max_waves) {
