@@ -1,6 +1,6 @@
 switch (state) {
+
     case "enter":
-        // Move até o ponto desejado
         var dir = point_direction(x, y, target_x, target_y);
         var dist = point_distance(x, y, target_x, target_y);
 
@@ -8,7 +8,7 @@ switch (state) {
             x += lengthdir_x(spd, dir);
             y += lengthdir_y(spd, dir);
         } else {
-            // Chegou no meio → inicia diálogo
+            // Chegou ao centro → começa o diálogo
             state = "talk";
             instance_create_layer(x, y - 80, "Instances", obj_dialogue);
             image_speed = 0;
@@ -16,8 +16,18 @@ switch (state) {
     break;
 
     case "talk":
-        // Parado durante o diálogo
-        hspeed = 0;
-        vspeed = 0;
+        // Fica parado durante o diálogo
+        if (dialogue_finished) {
+            state = "explode";
+            image_speed = 0.5;
+        }
+    break;
+
+    case "explode":
+        // Depois da animação, ele desaparece
+        if (image_index >= image_number - 1) {
+            global.tutorial_finished = true;
+            instance_destroy();
+        }
     break;
 }

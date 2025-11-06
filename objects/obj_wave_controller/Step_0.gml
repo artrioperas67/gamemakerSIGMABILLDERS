@@ -1,3 +1,6 @@
+if (!global.tutorial_finished) {
+    exit; 
+}
 if (!wave_ativa == 1) {
     tempo_wave++;
 

@@ -22,3 +22,12 @@ if (!finished) {
         }
     }
 }
+
+if (dialogue_index >= array_length(dialogues)) {
+    // Acabou o diálogo
+    // avisa o mentor
+    with (obj_mentor) {
+        dialogue_finished = true;
+    }
+    instance_destroy();
+}

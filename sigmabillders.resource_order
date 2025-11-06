@@ -24,6 +24,7 @@
     {"name":"spr_siglas","order":11,"path":"folders/Sprites/spr_siglas.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"font_dialogo","order":1,"path":"fonts/font_dialogo/font_dialogo.yy",},
     {"name":"obj_auro_morrendo","order":4,"path":"objects/obj_auro_morrendo/obj_auro_morrendo.yy",},
     {"name":"obj_balainimiga","order":1,"path":"objects/obj_balainimiga/obj_balainimiga.yy",},
     {"name":"obj_birdboy","order":1,"path":"objects/obj_birdboy/obj_birdboy.yy",},
@@ -57,7 +58,9 @@
     {"name":"spr_game_over","order":7,"path":"sprites/spr_game_over/spr_game_over.yy",},
     {"name":"spr_guimbos","order":10,"path":"sprites/spr_guimbos/spr_guimbos.yy",},
     {"name":"spr_inimigo_fogo","order":1,"path":"sprites/spr_inimigo_fogo/spr_inimigo_fogo.yy",},
+    {"name":"spr_jing_pqn","order":4,"path":"sprites/spr_jing_pqn/spr_jing_pqn.yy",},
     {"name":"spr_jogar","order":10,"path":"sprites/spr_jogar/spr_jogar.yy",},
+    {"name":"spr_ka_pqn","order":3,"path":"sprites/spr_ka_pqn/spr_ka_pqn.yy",},
     {"name":"spr_ka","order":1,"path":"sprites/spr_ka/spr_ka.yy",},
     {"name":"spr_limite","order":5,"path":"sprites/spr_limite/spr_limite.yy",},
     {"name":"spr_mentor","order":11,"path":"sprites/spr_mentor/spr_mentor.yy",},

@@ -17,3 +17,4 @@ global.congelado = false
 
 boss_delay_timer = 0;
 boss_delay_max = room_speed * 7; // 3 segundos de espera (room_speed = 60 → 180 frames)
+global.tutorial_finished = false;

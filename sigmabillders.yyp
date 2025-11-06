@@ -42,6 +42,7 @@
   },
   "name":"sigmabillders",
   "resources":[
+    {"id":{"name":"font_dialogo","path":"fonts/font_dialogo/font_dialogo.yy",},},
     {"id":{"name":"font_menu_inicial","path":"fonts/font_menu_inicial/font_menu_inicial.yy",},},
     {"id":{"name":"obj_auro_morrendo","path":"objects/obj_auro_morrendo/obj_auro_morrendo.yy",},},
     {"id":{"name":"obj_auro","path":"objects/obj_auro/obj_auro.yy",},},
@@ -83,8 +84,10 @@
     {"id":{"name":"spr_game_over","path":"sprites/spr_game_over/spr_game_over.yy",},},
     {"id":{"name":"spr_guimbos","path":"sprites/spr_guimbos/spr_guimbos.yy",},},
     {"id":{"name":"spr_inimigo_fogo","path":"sprites/spr_inimigo_fogo/spr_inimigo_fogo.yy",},},
+    {"id":{"name":"spr_jing_pqn","path":"sprites/spr_jing_pqn/spr_jing_pqn.yy",},},
     {"id":{"name":"spr_jing","path":"sprites/spr_jing/spr_jing.yy",},},
     {"id":{"name":"spr_jogar","path":"sprites/spr_jogar/spr_jogar.yy",},},
+    {"id":{"name":"spr_ka_pqn","path":"sprites/spr_ka_pqn/spr_ka_pqn.yy",},},
     {"id":{"name":"spr_ka","path":"sprites/spr_ka/spr_ka.yy",},},
     {"id":{"name":"spr_limite","path":"sprites/spr_limite/spr_limite.yy",},},
     {"id":{"name":"spr_mentor","path":"sprites/spr_mentor/spr_mentor.yy",},},
