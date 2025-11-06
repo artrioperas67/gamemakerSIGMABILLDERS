@@ -11,8 +11,8 @@
   "name":"obj_tiro_auro",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_projeteis",
-    "path":"folders/Objetos/obj_projeteis.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
