@@ -1,17 +1,20 @@
-if (is_dead) exit;
 
+// --- CHECA MORTE ---
+if (hp <= 0) {
+    instance_destroy(); // chama o Destroy Event automaticamente
+    exit;
+}
+
+// --- ENQUANTO ESTIVER VIVO ---
 var half_w = sprite_get_width(sprite_index) * 0.5;
-var half_h = sprite_get_height(sprite_index) * 0.5;
-
 x = clamp(x, left_bound + half_w, right_bound - half_w);
 
 if (!instance_exists(obj_auro)) exit;
 
-// Direção até o jogador
+// Segue o jogador
 var dir = point_direction(x, y, obj_auro.x, obj_auro.y);
 var dist = point_distance(x, y, obj_auro.x, obj_auro.y);
 
-// Movimenta em direção ao jogador (mas para se estiver muito perto)
 if (dist > 100) {
     x += lengthdir_x(spd, dir);
     y += lengthdir_y(spd, dir);
@@ -24,10 +27,10 @@ if (fire_timer <= 0) {
     instance_create_layer(x, y, "Instances", obj_balainimiga);
 }
 
+// Se o jogador estiver morrendo, congela o inimigo
 if (global.jogador_morrendo) {
     spd = 0;
     image_speed = 0;
-	fire_rate = 0;
+    fire_rate = 0;
     exit;
 }
-

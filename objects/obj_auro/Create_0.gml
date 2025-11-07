@@ -27,3 +27,7 @@ move_speed = 10;
 
 move_x = 0;
 move_y = 0;
+
+poder_atual = 0;
+poder_max = 100;
+poder_ativo = false;

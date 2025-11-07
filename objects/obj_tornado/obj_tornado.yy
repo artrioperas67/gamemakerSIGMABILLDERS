@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_energia",
+  "%Name":"obj_tornado",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_energia",
+  "name":"obj_tornado",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_projeteis",
-    "path":"folders/Objetos/obj_projeteis.yy",
+    "name":"obj_personagens",
+    "path":"folders/Objetos/obj_personagens.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_energia",
-    "path":"sprites/spr_energia/spr_energia.yy",
+    "name":"spr_tornado",
+    "path":"sprites/spr_tornado/spr_tornado.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -41,3 +41,18 @@ if (is_dead) {
         room_goto(rm_gameover);
     }
 }
+
+if (!poder_ativo && poder_atual >= poder_max) {
+    // jogador pode ativar com a tecla X
+    if (keyboard_check_pressed(ord("X"))) {
+        poder_ativo = true;
+        poder_atual = 0;
+
+        // cria vários tornados
+        for (var i = 0; i < 5; i++) {
+            var pos_x = irandom_range(left_bound, right_bound);
+            var pos_y = irandom_range(top_bound + 100, bottom_bound - 100);
+            instance_create_layer(pos_x, pos_y, "Instances", obj_tornado);
+        }
+    }
+}
