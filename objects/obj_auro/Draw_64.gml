@@ -1,10 +1,9 @@
-var largura = 250;
-var altura = 30;
-var x_gui = 890;
-var y_gui = 281;
+// Barra de poder
+draw_set_color(c_dkgray);
+draw_rectangle(50, 50, 250, 80, false);
+draw_set_color(c_aqua);
+var largura = lerp(0, 200, poder_atual / poder_max);
+draw_rectangle(50, 50, 50 + largura, 80, false);
 
-draw_set_color(c_black);
-draw_rectangle(x_gui-2, y_gui-2, x_gui+largura+2, y_gui+altura+2, false);
-
-draw_set_color(c_red);
-draw_rectangle(x_gui, y_gui, x_gui + (largura * hp/max_hp), y_gui + altura, false);
+draw_set_color(c_white);
+draw_text(60, 55, "Poder: " + string(floor(poder_atual)) + " / " + string(poder_max));
