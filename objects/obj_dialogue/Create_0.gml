@@ -11,6 +11,6 @@ dialogues = [
 
 dialogue_index = 0;
 text_timer = 0;
-text_speed = 2; // tempo entre letras
+text_speed = 2; 
 current_text = "";
 finished = false;

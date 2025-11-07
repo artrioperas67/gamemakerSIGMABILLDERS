@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"criar_inimigos",
+  "%Name":"scr_criar_inimigos",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"criar_inimigos",
+  "name":"scr_criar_inimigos",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

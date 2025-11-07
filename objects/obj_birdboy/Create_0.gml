@@ -1,4 +1,4 @@
-spd = 4;
+spd = 3;
 
 fire_rate = 100;
 fire_timer = irandom_range(0, fire_rate); 
