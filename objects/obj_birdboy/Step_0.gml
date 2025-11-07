@@ -1,3 +1,5 @@
+if (global.congelado) exit;
+
 if (is_dead) exit;
 
 var half_w = sprite_get_width(sprite_index) * 0.5;

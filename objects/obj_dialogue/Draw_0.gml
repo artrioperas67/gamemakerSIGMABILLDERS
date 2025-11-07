@@ -8,4 +8,4 @@ draw_set_alpha(1);
 draw_text(200, room_height - 170, "Mentor: " + current_text);
 
 if (finished)
-    draw_text(room_width - 220, room_height - 100, "[Aperte ESPAÇO]");
+    draw_text(room_width - 275, room_height - 120, "[Aperte ESPAÇO]");
