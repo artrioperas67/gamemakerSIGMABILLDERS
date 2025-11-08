@@ -8,7 +8,7 @@ birdboys_por_wave = [5, 7, 5, 5, 5];
 fireboys_por_wave = [0, 0, 2, 3, 3];
 
 // CONFIG DE TEMPO ENTRE WAVES
-intervalo_wave = room_speed * 5; // <<< tempo entre waves (ajustável)
+intervalo_wave = room_speed * 7; // <<< tempo entre waves (ajustável)
 
 prox_wave_timer = 0;
 delay_prox_wave = room_speed * 2;

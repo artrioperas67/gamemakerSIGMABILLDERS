@@ -25,7 +25,7 @@ fire_timer--;
 if (fire_timer <= 0) {
     fire_timer = fire_delay;
 
-    var t = instance_create_layer(x, y, "Instances", obj_ultimatefireball);
+    var t = instance_create_layer(x, y, "Instances", obj_balainimiga);
     t.direction = 270;  // 270 = para baixo
     t.speed = 6;        // velocidade fixa
 }
