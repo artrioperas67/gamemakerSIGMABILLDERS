@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"sigmabillders",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -38,7 +38,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.0.207",
   },
   "name":"sigmabillders",
   "resources":[
@@ -61,12 +61,15 @@
     {"id":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},},
     {"id":{"name":"obj_resolucao","path":"objects/obj_resolucao/obj_resolucao.yy",},},
     {"id":{"name":"obj_tiro_auro","path":"objects/obj_tiro_auro/obj_tiro_auro.yy",},},
+    {"id":{"name":"obj_tiro_bebab","path":"objects/obj_tiro_bebab/obj_tiro_bebab.yy",},},
     {"id":{"name":"obj_tiro_guimbos","path":"objects/obj_tiro_guimbos/obj_tiro_guimbos.yy",},},
     {"id":{"name":"obj_tiro_nave","path":"objects/obj_tiro_nave/obj_tiro_nave.yy",},},
     {"id":{"name":"obj_tornado","path":"objects/obj_tornado/obj_tornado.yy",},},
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},},
     {"id":{"name":"obj_wave_controller","path":"objects/obj_wave_controller/obj_wave_controller.yy",},},
     {"id":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
+    {"id":{"name":"rm_fase2","path":"rooms/rm_fase2/rm_fase2.yy",},},
+    {"id":{"name":"rm_fase3","path":"rooms/rm_fase3/rm_fase3.yy",},},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_primeira_cutscene","path":"rooms/rm_primeira_cutscene/rm_primeira_cutscene.yy",},},
@@ -76,6 +79,7 @@
     {"id":{"name":"spr_auro_morrendo","path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},},
     {"id":{"name":"spr_auro","path":"sprites/spr_auro/spr_auro.yy",},},
     {"id":{"name":"spr_balainimiga","path":"sprites/spr_balainimiga/spr_balainimiga.yy",},},
+    {"id":{"name":"spr_bebab","path":"sprites/spr_bebab/spr_bebab.yy",},},
     {"id":{"name":"spr_birdboy","path":"sprites/spr_birdboy/spr_birdboy.yy",},},
     {"id":{"name":"spr_creditos","path":"sprites/spr_creditos/spr_creditos.yy",},},
     {"id":{"name":"spr_cutscene","path":"sprites/spr_cutscene/spr_cutscene.yy",},},
@@ -102,6 +106,7 @@
     {"id":{"name":"spr_sair","path":"sprites/spr_sair/spr_sair.yy",},},
     {"id":{"name":"spr_taifu","path":"sprites/spr_taifu/spr_taifu.yy",},},
     {"id":{"name":"spr_tiro_auro","path":"sprites/spr_tiro_auro/spr_tiro_auro.yy",},},
+    {"id":{"name":"spr_tiro_bebab","path":"sprites/spr_tiro_bebab/spr_tiro_bebab.yy",},},
     {"id":{"name":"spr_tiro_guimbos","path":"sprites/spr_tiro_guimbos/spr_tiro_guimbos.yy",},},
     {"id":{"name":"spr_tiro_nave","path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",},},
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
@@ -113,6 +118,8 @@
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"roomId":{"name":"rm_primeira_cutscene","path":"rooms/rm_primeira_cutscene/rm_primeira_cutscene.yy",},},
+    {"roomId":{"name":"rm_fase2","path":"rooms/rm_fase2/rm_fase2.yy",},},
+    {"roomId":{"name":"rm_fase3","path":"rooms/rm_fase3/rm_fase3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

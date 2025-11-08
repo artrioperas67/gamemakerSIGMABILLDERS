@@ -9,7 +9,7 @@ intervalo_wave = room_speed * 2.5; // 5 segundos entre waves
 
 // --- QUANTIDADE DE INIMIGOS POR WAVE ---
 kamikks_por_wave = [1, 1, 1, 1, 1];
-bebabs_por_wave = [0, 0, 0, 0, 0];
+bebabs_por_wave = [1, 1, 1, 1, 1];
 
 // --- LIMITES DE SPAWN ---
 left_spawn = 444;
