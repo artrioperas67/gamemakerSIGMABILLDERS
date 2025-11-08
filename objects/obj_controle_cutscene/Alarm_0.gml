@@ -1,0 +1,1 @@
+room_goto(rm_fase_2); // ou qualquer room que você queira ir depois

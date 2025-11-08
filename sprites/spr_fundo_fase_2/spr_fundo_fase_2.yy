@@ -1,10 +1,10 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_fundo_fase_2",
   "bboxMode":0,
-  "bbox_bottom":1535,
+  "bbox_bottom":1279,
   "bbox_left":0,
-  "bbox_right":1023,
+  "bbox_right":776,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"12bac2b7-587e-4015-8c24-96cc9323f75e","name":"12bac2b7-587e-4015-8c24-96cc9323f75e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"12bac2b7-587e-4015-8c24-96cc9323f75e","name":"12bac2b7-587e-4015-8c24-96cc9323f75e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":1536,
+  "height":1280,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"3ac066c4-26d8-449e-8af2-164134556055","blendMode":0,"displayName":"default","isLocked":false,"name":"3ac066c4-26d8-449e-8af2-164134556055","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -88,5 +88,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1024,
+  "width":777,
 }
