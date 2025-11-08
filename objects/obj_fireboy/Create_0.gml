@@ -1,15 +1,17 @@
-vspeed = random_range(2, 5);
-hspeed = random_range(-1.5, 1.5);
+sprite_index = spr_fireboy;
+image_speed = 0.5;
 
-// Gravidade
-gravidade = 0.25;
+// Movimento inicial
+vspd = irandom_range(8, 14);  // velocidade inicial de queda
+hspd = irandom_range(-2, 2);  // leve desvio lateral
+gravidade = 0.25;             // aceleração de queda
 
-// Rotação inicial
-image_angle = random(360);
+// Área jogável
+left_bound   = 91;
+right_bound  = 874;
+top_bound    = 6;
+bottom_bound = 1493;
 
-// Limites
-velocidade_max = 10;  // velocidade vertical máxima
-limite_horizontal = 2; // limite de movimento lateral
-
-// Posição do "chão"
-chao_y = room_height - 64; // altura do chão (ajuste conforme sua room)
+// Status
+hp = 1;          // caso queira dar vida pra ele
+is_dead = false; // usado pra evitar múltiplas destruições

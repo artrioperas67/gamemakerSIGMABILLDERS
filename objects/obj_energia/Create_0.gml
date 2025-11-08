@@ -1,3 +1,3 @@
-sprite_index = spr_energia;
-image_speed = 0.2;
-vspd = 2;
+// Velocidade e gravidade da energia
+vspeed = 2
+gravidade = 0.2;
