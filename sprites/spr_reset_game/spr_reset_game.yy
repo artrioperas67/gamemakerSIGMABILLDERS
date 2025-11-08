@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"v2",
+  "$GMSprite":"",
   "%Name":"spr_reset_game",
   "bboxMode":0,
   "bbox_bottom":649,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"958332ab-fc11-4e8e-8658-985c236025a1","name":"958332ab-fc11-4e8e-8658-985c236025a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"09f65df4-05e2-4bc4-9fdb-cd4f1ced297a","name":"09f65df4-05e2-4bc4-9fdb-cd4f1ced297a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"958332ab-fc11-4e8e-8658-985c236025a1","name":"958332ab-fc11-4e8e-8658-985c236025a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"09f65df4-05e2-4bc4-9fdb-cd4f1ced297a","name":"09f65df4-05e2-4bc4-9fdb-cd4f1ced297a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

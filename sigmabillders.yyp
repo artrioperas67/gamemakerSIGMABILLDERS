@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"sigmabillders",
   "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -38,7 +38,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.13.1.193",
   },
   "name":"sigmabillders",
   "resources":[
@@ -72,6 +72,9 @@
     {"id":{"name":"criar_inimigos","path":"scripts/criar_inimigos/criar_inimigos.yy",},},
     {"id":{"name":"song_1","path":"sounds/song_1/song_1.yy",},},
     {"id":{"name":"song_dois_ror","path":"sounds/song_dois_ror/song_dois_ror.yy",},},
+    {"id":{"name":"esperma","path":"sprites/esperma/esperma.yy",},},
+    {"id":{"name":"fz","path":"sprites/fz/fz.yy",},},
+    {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
     {"id":{"name":"spr_auro_morrendo","path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},},
     {"id":{"name":"spr_auro","path":"sprites/spr_auro/spr_auro.yy",},},
     {"id":{"name":"spr_balainimiga","path":"sprites/spr_balainimiga/spr_balainimiga.yy",},},
