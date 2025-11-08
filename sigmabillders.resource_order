@@ -72,7 +72,5 @@
     {"name":"spr_tiro_auro","order":1,"path":"sprites/spr_tiro_auro/spr_tiro_auro.yy",},
     {"name":"spr_tiro_guimbos","order":3,"path":"sprites/spr_tiro_guimbos/spr_tiro_guimbos.yy",},
     {"name":"spr_tornado","order":4,"path":"sprites/spr_tornado/spr_tornado.yy",},
- parent of a9a734d (aoba)
-
-  ],
+  ]
 }

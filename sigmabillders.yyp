@@ -100,8 +100,6 @@
     {"id":{"name":"spr_tiro_auro","path":"sprites/spr_tiro_auro/spr_tiro_auro.yy",},},
     {"id":{"name":"spr_tiro_guimbos","path":"sprites/spr_tiro_guimbos/spr_tiro_guimbos.yy",},},
     {"id":{"name":"spr_tiro_nave","path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",},},
-
- ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
