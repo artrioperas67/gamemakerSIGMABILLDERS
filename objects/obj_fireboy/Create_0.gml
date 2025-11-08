@@ -1,23 +1,17 @@
-// velocidade de movimento lateral
-spd = 1; 
-hp = 3;
+sprite_index = spr_fireboy;
+image_speed = 0.5;
 
-// direção inicial (1 = direita, -1 = esquerda)
-dir = choose(1, -1); 
+// Movimento inicial
+vspd = irandom_range(8, 14);  // velocidade inicial de queda
+hspd = irandom_range(-2, 2);  // leve desvio lateral
+gravidade = 0.25;             // aceleração de queda
 
-// até onde ele pode ir na tela
-left_bound = 444;
-right_bound = 1215;
+// Área jogável
+left_bound   = 91;
+right_bound  = 874;
+top_bound    = 6;
+bottom_bound = 1493;
 
-fall_speed = 6;
-
-// ele começa caindo
-caindo = true;
-alvo_y = 150;
-vel_descida = 0.02;
-entrou = false;
-
-fire_delay = 120; 
-fire_timer = fire_delay;
-left_bound = 444;  // limite esquerdo do mapa
-right_bound = 1215; // limite direito do mapa
+// Status
+hp = 1;          // caso queira dar vida pra ele
+is_dead = false; // usado pra evitar múltiplas destruições

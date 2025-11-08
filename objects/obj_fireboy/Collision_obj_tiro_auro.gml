@@ -1,6 +1,7 @@
-with (other) instance_destroy(); // destroi o tiro do auro
 hp -= 1;
+instance_destroy(other); // destrói a bala
 
 if (hp <= 0) {
-    instance_destroy(); // só morre na 2ª hit
+    is_dead = true;
+    instance_destroy();
 }
