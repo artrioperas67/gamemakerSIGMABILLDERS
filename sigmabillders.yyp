@@ -1,32 +1,55 @@
-...
-{"id":{"name":"song_dois_ror","path":"sounds/song_dois_ror/song_dois_ror.yy"}},
-{"id":{"name":"spr_auro_morrendo","path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy"}},
-{"id":{"name":"spr_auro","path":"sprites/spr_auro/spr_auro.yy"}},
-{"id":{"name":"spr_balainimiga","path":"sprites/spr_balainimiga/spr_balainimiga.yy"}},
-{"id":{"name":"spr_birdboy","path":"sprites/spr_birdboy/spr_birdboy.yy"}},
-{"id":{"name":"spr_creditos","path":"sprites/spr_creditos/spr_creditos.yy"}},
-{"id":{"name":"spr_cutscene","path":"sprites/spr_cutscene/spr_cutscene.yy"}},
-{"id":{"name":"spr_energia","path":"sprites/spr_energia/spr_energia.yy"}},
-{"id":{"name":"spr_fireboy","path":"sprites/spr_fireboy/spr_fireboy.yy"}},
-{"id":{"name":"spr_fundo_esquerda","path":"sprites/spr_fundo_esquerda/spr_fundo_esquerda.yy"}},
-{"id":{"name":"spr_fundo_fase_1","path":"sprites/spr_fundo_fase_1/spr_fundo_fase_1.yy"}},
-{"id":{"name":"spr_game_over","path":"sprites/spr_game_over/spr_game_over.yy"}},
-{"id":{"name":"spr_guimbos","path":"sprites/spr_guimbos/spr_guimbos.yy"}},
-{"id":{"name":"spr_jing_pqn","path":"sprites/spr_jing_pqn/spr_jing_pqn.yy"}},
-{"id":{"name":"spr_jing","path":"sprites/spr_jing/spr_jing.yy"}},
-{"id":{"name":"spr_jogar","path":"sprites/spr_jogar/spr_jogar.yy"}},
-{"id":{"name":"spr_ka_pqn","path":"sprites/spr_ka_pqn/spr_ka_pqn.yy"}},
-{"id":{"name":"spr_ka","path":"sprites/spr_ka/spr_ka.yy"}},
-{"id":{"name":"spr_limite","path":"sprites/spr_limite/spr_limite.yy"}},
-{"id":{"name":"spr_mentor","path":"sprites/spr_mentor/spr_mentor.yy"}},
-{"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy"}},
-{"id":{"name":"spr_nave_explosao","path":"sprites/spr_nave_explosao/spr_nave_explosao.yy"}},
-{"id":{"name":"spr_nave","path":"sprites/spr_nave/spr_nave.yy"}},
-{"id":{"name":"spr_reset_game","path":"sprites/spr_reset_game/spr_reset_game.yy"}},
-{"id":{"name":"spr_sair","path":"sprites/spr_sair/spr_sair.yy"}},
-{"id":{"name":"spr_taifu","path":"sprites/spr_taifu/spr_taifu.yy"}},
-{"id":{"name":"spr_tiro_auro","path":"sprites/spr_tiro_auro/spr_tiro_auro.yy"}},
-{"id":{"name":"spr_tiro_guimbos","path":"sprites/spr_tiro_guimbos/spr_tiro_guimbos.yy"}},
-{"id":{"name":"spr_tiro_nave","path":"sprites/spr_tiro_nave/spr_tiro_nave.yy"}},
-{"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy"}}
-...
+{
+  "$GMProject":"v1",
+  "%Name":"sigmabillders",
+  "AudioGroups":[
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1}
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default"
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Anotações","folderPath":"folders/Anotações.yy","name":"Anotações","resourceType":"GMFolder","resourceVersion":"2.0"},
+    {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0"},
+    {"$GMFolder":"","%Name":"Cenas","folderPath":"folders/Cenas.yy","name":"Cenas","resourceType":"GMFolder","resourceVersion":"2.0"},
+    {"$GMFolder":"","%Name":"Conjuntos de tiles","folderPath":"folders/Conjuntos de tiles.yy","name":"Conjuntos de tiles","resourceType":"GMFolder","resourceVersion":"2.0"},
+    {"$GMFolder":"","%Name":"Extensões","folderPath":"folders/Extensões.yy","name":"Extensões","resourceType":"GMFolder","resourceVersion":"2.0"},
+    {"$GMFolder":"","%Name":"Fontes","folderPath":"folders/Fontes.yy","name":"Fontes","resourceType":"GMFolder","resourceVersion":"2.0"},
+    {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0"},
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0"},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0"}
+  ],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "MetaData":{
+    "IDEVersion":"2024.13.1.193"
+  },
+  "name":"sigmabillders",
+  "resources":[
+    {"id":{"name":"font_dialogo","path":"fonts/font_dialogo/font_dialogo.yy"}},
+    {"id":{"name":"font_menu_inicial","path":"fonts/font_menu_inicial/font_menu_inicial.yy"}},
+    {"id":{"name":"obj_auro","path":"objects/obj_auro/obj_auro.yy"}},
+    {"id":{"name":"obj_birdboy","path":"objects/obj_birdboy/obj_birdboy.yy"}},
+    {"id":{"name":"obj_fireboy","path":"objects/obj_fireboy/obj_fireboy.yy"}},
+    {"id":{"name":"obj_balainimiga","path":"objects/obj_balainimiga/obj_balainimiga.yy"}},
+    {"id":{"name":"obj_wave_controller","path":"objects/obj_wave_controller/obj_wave_controller.yy"}},
+    {"id":{"name":"obj_guimbos","path":"objects/obj_guimbos/obj_guimbos.yy"}},
+    {"id":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy"}},
+    {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy"}},
+    {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy"}},
+    {"id":{"name":"spr_auro","path":"sprites/spr_auro/spr_auro.yy"}},
+    {"id":{"name":"spr_birdboy","path":"sprites/spr_birdboy/spr_birdboy.yy"}},
+    {"id":{"name":"spr_inimigo_fogo","path":"sprites/spr_inimigo_fogo/spr_inimigo_fogo.yy"}},
+    {"id":{"name":"spr_balainimiga","path":"sprites/spr_balainimiga/spr_balainimiga.yy"}},
+    {"id":{"name":"spr_fundo_fase_1","path":"sprites/spr_fundo_fase_1/spr_fundo_fase_1.yy"}}
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy"}},
+    {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy"}},
+    {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy"}}
+  ],
+  "templateType":"game"
+}

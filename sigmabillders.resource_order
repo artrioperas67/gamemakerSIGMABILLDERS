@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings":[
+  "FolderOrderSettings": [
     {"name":"Anotações","order":13,"path":"folders/Anotações.yy"},
     {"name":"Caminhos","order":4,"path":"folders/Caminhos.yy"},
     {"name":"Cenas","order":10,"path":"folders/Cenas.yy"},
@@ -23,7 +23,8 @@
     {"name":"spr_seres","order":10,"path":"folders/Sprites/spr_seres.yy"},
     {"name":"spr_siglas","order":11,"path":"folders/Sprites/spr_siglas.yy"}
   ],
-  "ResourceOrderSettings":[
+
+  "ResourceOrderSettings": [
     {"name":"font_dialogo","order":1,"path":"fonts/font_dialogo/font_dialogo.yy"},
     {"name":"obj_auro_morrendo","order":4,"path":"objects/obj_auro_morrendo/obj_auro_morrendo.yy"},
     {"name":"obj_balainimiga","order":1,"path":"objects/obj_balainimiga/obj_balainimiga.yy"},
