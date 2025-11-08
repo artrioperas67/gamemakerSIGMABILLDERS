@@ -1,14 +1,3 @@
-if (global.congelado) {
-    exit;
-}
-
-// Se o player morreu, para o tiro
-if (global.jogador_morrendo) {
-    spd = 0;
-    image_speed = 0;
-    exit;
-}
-
 x += lengthdir_x(spd, direction);
 y += lengthdir_y(spd, direction);
 
