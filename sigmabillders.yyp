@@ -72,22 +72,21 @@
     {"id":{"name":"criar_inimigos","path":"scripts/criar_inimigos/criar_inimigos.yy",},},
     {"id":{"name":"song_1","path":"sounds/song_1/song_1.yy",},},
     {"id":{"name":"song_dois_ror","path":"sounds/song_dois_ror/song_dois_ror.yy",},},
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
     {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
->>>>>>> parent of a9a734d (aoba)
-=======
+ parent of a9a734d (aoba)
+
     {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
->>>>>>> parent of a9a734d (aoba)
-=======
+ parent of a9a734d (aoba)
+
     {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
->>>>>>> parent of a9a734d (aoba)
-=======
+ parent of a9a734d (aoba)
+
     {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
->>>>>>> parent of a9a734d (aoba)
+ parent of a9a734d (aoba)
+
+    {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
+ parent of a9a734d (aoba)
     {"id":{"name":"spr_auro_morrendo","path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},},
     {"id":{"name":"spr_auro","path":"sprites/spr_auro/spr_auro.yy",},},
     {"id":{"name":"spr_balainimiga","path":"sprites/spr_balainimiga/spr_balainimiga.yy",},},
@@ -116,22 +115,20 @@
     {"id":{"name":"spr_tiro_auro","path":"sprites/spr_tiro_auro/spr_tiro_auro.yy",},},
     {"id":{"name":"spr_tiro_guimbos","path":"sprites/spr_tiro_guimbos/spr_tiro_guimbos.yy",},},
     {"id":{"name":"spr_tiro_nave","path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",},},
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
->>>>>>> parent of a9a734d (aoba)
-=======
+ parent of a9a734d (aoba)
+
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
->>>>>>> parent of a9a734d (aoba)
-=======
+ parent of a9a734d (aoba)
+
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
->>>>>>> parent of a9a734d (aoba)
-=======
+ parent of a9a734d (aoba)
+
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
->>>>>>> parent of a9a734d (aoba)
+ parent of a9a734d (aoba)
+    {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
+ parent of a9a734d (aoba)
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
