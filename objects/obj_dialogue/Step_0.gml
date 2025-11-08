@@ -14,21 +14,17 @@ if (!finished) {
     }
 }
 
-// AO APERTAR ESPAÇO
+// APERTAR ESPAÇO
 if (keyboard_check_pressed(vk_space)) {
-    // Se ainda NÃO terminou de escrever → completa na hora
     if (!finished) {
         current_text = frase;
         finished = true;
     }
-    // Se já terminou → passa pra próxima fala
     else {
         dialogue_index++;
 
         if (dialogue_index >= array_length(dialogues)) {
-            with (obj_mentor) {
-                dialogue_finished = true;
-            }
+            with (obj_mentor) dialogue_finished = true;
             instance_destroy();
         } else {
             current_text = "";

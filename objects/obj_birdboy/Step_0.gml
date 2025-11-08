@@ -13,7 +13,6 @@ if (!instance_exists(obj_auro)) exit;
 var dir = point_direction(x, y, obj_auro.x, obj_auro.y);
 var dist = point_distance(x, y, obj_auro.x, obj_auro.y);
 
-// Movimenta em direção ao jogador (mas para se estiver muito perto)
 if (dist > 100) {
     x += lengthdir_x(spd, dir);
     y += lengthdir_y(spd, dir);

@@ -1,17 +1,28 @@
 sprite_index = spr_fireboy;
 image_speed = 0.5;
 
-// Movimento inicial
-vspd = irandom_range(8, 14);  // velocidade inicial de queda
-hspd = irandom_range(-2, 2);  // leve desvio lateral
-gravidade = 0.25;             // aceleração de queda
+// Patrulha aérea
+hspd = 2;             // velocidade horizontal
+vspd = 0;             // sem gravidade
+amplitude = 20;       // "altura" da flutuação
+freq = 0.05;          // velocidade da flutuação
+start_y = y;          // salva a altura inicial
 
-// Área jogável
-left_bound   = 91;
-right_bound  = 874;
-top_bound    = 6;
-bottom_bound = 1493;
+momento_descida = true;
+altura_target = 58; // altura onde ele vai parar e começar a patrulhar
+vspd = 3; // velocidade que ele vai descer
+
+// Limites da área
+left_bound   = 444;
+right_bound  = 1215;
 
 // Status
-hp = 1;          // caso queira dar vida pra ele
-is_dead = false; // usado pra evitar múltiplas destruições
+hp = 2;
+is_dead = false;
+
+visible = true;
+image_alpha = 1;
+
+// Sistema de tiro
+shot_cooldown = room_speed * 2.5; // 1.5s entre tiros
+shot_timer = irandom_range(30, 90); // começa aleatório pra não atirar tudo junto

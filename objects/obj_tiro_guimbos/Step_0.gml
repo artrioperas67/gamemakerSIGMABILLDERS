@@ -1,4 +1,9 @@
 if (global.congelado) {
+    instance_destroy();
+    exit;
+}
+
+if (global.congelado) {
     exit;
 }
 

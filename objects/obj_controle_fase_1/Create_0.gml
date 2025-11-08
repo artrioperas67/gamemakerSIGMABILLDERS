@@ -13,4 +13,6 @@ view_set_yport(0, 0);
 
 display_set_gui_size(1280, 720);
 
-global.congelado = true;
+global.tutorial_finished = false;
+global.boss_morreu = false;
+global.congelado = false;

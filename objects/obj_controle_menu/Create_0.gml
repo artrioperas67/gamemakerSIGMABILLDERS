@@ -1,10 +1,9 @@
-menu_itens = ["jogar", "opcoes", "sair", "creditos"];
+menu_itens = ["jogar", "sair", "creditos"];
 selecionado = -1;
 fonte_menu = font_menu_inicial;
 
 menu_sprites = [
     spr_jogar,
-    spr_menu,
     spr_sair,
 	spr_creditos
 ];
