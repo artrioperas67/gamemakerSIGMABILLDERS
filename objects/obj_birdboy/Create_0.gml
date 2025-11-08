@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
 hp = 5;
 spd = 2;
-=======
-spd = 5;
->>>>>>> Stashed changes
 
 // tempo entre tiros (2 segundos)
 fire_rate = room_speed * 2;
