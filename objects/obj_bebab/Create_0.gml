@@ -1,4 +1,4 @@
-sprite_index = spr_fireboy;
+sprite_index = spr_bebab;
 image_speed = 0.5;
 
 // Patrulha aérea
