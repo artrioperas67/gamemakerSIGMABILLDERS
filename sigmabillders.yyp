@@ -72,6 +72,7 @@
     {"id":{"name":"criar_inimigos","path":"scripts/criar_inimigos/criar_inimigos.yy",},},
     {"id":{"name":"song_1","path":"sounds/song_1/song_1.yy",},},
     {"id":{"name":"song_dois_ror","path":"sounds/song_dois_ror/song_dois_ror.yy",},},
+    {"id":{"name":"fz","path":"sprites/fz/fz.yy",},},
     {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
     {"id":{"name":"spr_auro_morrendo","path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},},
     {"id":{"name":"spr_auro","path":"sprites/spr_auro/spr_auro.yy",},},
