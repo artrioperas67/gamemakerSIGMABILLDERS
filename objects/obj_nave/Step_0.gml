@@ -1,73 +1,22 @@
-if (keyboard_check_pressed(ord("Z"))) { // só atira quando o jogador pressiona espaço
-    if (pode_atirar == 1) {
-        instance_create_layer(x, y, "Instances", obj_tiro_nave);
-        pode_atirar = 0;
-        alarm[0] = 15;
-    }
+var spd = 10;
+
+var rightK = keyboard_check(vk_right) or keyboard_check(ord("D"));
+var leftK  = keyboard_check(vk_left) or keyboard_check(ord("A"));
+var upK    = keyboard_check(vk_up) or keyboard_check(ord("W"));
+var downK  = keyboard_check(vk_down) or keyboard_check(ord("S"));
+
+var xspd = (rightK - leftK);
+var yspd = (downK - upK);
+
+var len = point_distance(0, 0, xspd, yspd);
+if (len > 0) 
+{
+    xspd /= len;
+    yspd /= len;
 }
 
-if (global.congelado) {
-    hspeed = 0;
-    vspeed = 0;
-    move_speed = 0;
-    pode_atirar = false;
-    exit;
-} else {
-    move_speed = 10; 
-    pode_atirar = true;
-}
+var nx = x + xspd * spd;
+var ny = y + yspd * spd;
 
-if (!is_dead) {
-    var hmove = keyboard_check(vk_right) - keyboard_check(vk_left);
-    var vmove = keyboard_check(vk_down) - keyboard_check(vk_up);
-
-    x += hmove * move_speed;
-    y += vmove * move_speed;
-
-    if (hmove < 0) image_xscale = -1;
-    if (hmove > 0) image_xscale = 1;
-}
-
-// =======================
-// LIMITES DA TELA
-// =======================
-var half_w = sprite_get_width(sprite_index) * 0.5;
-var half_h = sprite_get_height(sprite_index) * 0.5;
-
-x = clamp(x, left_bound + half_w, right_bound - half_w);
-y = clamp(y, top_bound + half_h, bottom_bound - half_h);
-
-// =======================
-// INVENCIBILIDADE (piscar)
-// =======================
-if (invincible) {
-    inv_timer--;
-    blink_timer++;
-    image_alpha = (blink_timer mod 10 < 5) ? 0.3 : 1;
-
-    if (inv_timer <= 0) {
-        invincible = false;
-        image_alpha = 1;
-    }
-}
-
-// =======================
-// MORTE DO PLAYER
-// =======================
-if (is_dead) {
-    invincible = true;
-    move_speed = 0;
-    pode_atirar = 0;
-
-    if (image_index >= image_number - 1) {
-        room_goto(rm_gameover);
-    }
-    exit;
-}
-
-if (!global.congelado && pode_atirar && keyboard_check(ord("Z"))) {
-    if (alarm[0] <= 0) {
-        instance_create_layer(x, y, "Instances", obj_tiro_nave);
-        alarm[0] = 15; // tempo entre tiros (menor = atira mais rápido)
-    }
-}
+if (!place_meeting(nx, y, obj_limite)) x = nx;
+if (!place_meeting(x, ny, obj_limite)) y = ny;

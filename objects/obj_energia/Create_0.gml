@@ -1,3 +1,3 @@
 // Velocidade e gravidade da energia
-vspeed = 6
-gravidade = 0.002;
+vspeed = 2
+gravidade = 0.2;
