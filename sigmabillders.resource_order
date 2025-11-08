@@ -47,6 +47,7 @@
     {"name":"rm_menu","order":3,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"rm_primeira_cutscene","order":1,"path":"rooms/rm_primeira_cutscene/rm_primeira_cutscene.yy",},
     {"name":"song_dois_ror","order":1,"path":"sounds/song_dois_ror/song_dois_ror.yy",},
+    {"name":"esperma","order":15,"path":"sprites/esperma/esperma.yy",},
     {"name":"fz","order":14,"path":"sprites/fz/fz.yy",},
     {"name":"nigger_porra","order":13,"path":"sprites/nigger_porra/nigger_porra.yy",},
     {"name":"spr_auro_morrendo","order":7,"path":"sprites/spr_auro_morrendo/spr_auro_morrendo.yy",},
