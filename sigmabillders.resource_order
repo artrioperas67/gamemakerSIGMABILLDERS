@@ -10,7 +10,7 @@
     {"name":"Linhas do tempo","order":8,"path":"folders/Linhas do tempo.yy",},
     {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
     {"name":"obj_personagens","order":16,"path":"folders/Objetos/obj_personagens.yy",},
-    {"name":"obj_projeteis","order":17,"path":"folders/Objetos/obj_projeteis.yy",},
+    {"name":"obj_projeteis","order":10,"path":"folders/Objetos/obj_personagens/obj_projeteis.yy",},
     {"name":"obj_salas_controles","order":18,"path":"folders/Objetos/obj_salas_controles.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},

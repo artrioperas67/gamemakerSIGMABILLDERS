@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"obj_projeteis",
-    "path":"folders/Objetos/obj_projeteis.yy",
+    "path":"folders/Objetos/obj_personagens/obj_projeteis.yy",
   },
   "parentObjectId":null,
   "persistent":false,

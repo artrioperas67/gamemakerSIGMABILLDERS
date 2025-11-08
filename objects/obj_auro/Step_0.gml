@@ -1,11 +1,3 @@
-if (keyboard_check_pressed(ord("Z"))) { // só atira quando o jogador pressiona espaço
-    if (pode_atirar == 1) {
-        instance_create_layer(x, y, "Instances", obj_tiro_auro);
-        pode_atirar = 0;
-        alarm[0] = 15;
-    }
-}
-
 if (global.congelado) {
     hspeed = 0;
     vspeed = 0;

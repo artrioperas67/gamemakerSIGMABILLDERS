@@ -20,7 +20,7 @@
     {"$GMFolder":"","%Name":"Linhas do tempo","folderPath":"folders/Linhas do tempo.yy","name":"Linhas do tempo","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj_personagens","folderPath":"folders/Objetos/obj_personagens.yy","name":"obj_personagens","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"obj_projeteis","folderPath":"folders/Objetos/obj_projeteis.yy","name":"obj_projeteis","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"obj_projeteis","folderPath":"folders/Objetos/obj_personagens/obj_projeteis.yy","name":"obj_projeteis","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"obj_salas_controles","folderPath":"folders/Objetos/obj_salas_controles.yy","name":"obj_salas_controles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
