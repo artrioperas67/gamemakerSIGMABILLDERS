@@ -73,6 +73,7 @@
     {"name":"spr_reset_game","order":8,"path":"sprites/spr_reset_game/spr_reset_game.yy",},
     {"name":"spr_sair","order":11,"path":"sprites/spr_sair/spr_sair.yy",},
     {"name":"spr_taifu","order":2,"path":"sprites/spr_taifu/spr_taifu.yy",},
+    {"name":"spr_teste","order":13,"path":"sprites/spr_teste/spr_teste.yy",},
     {"name":"spr_tiro_auro","order":1,"path":"sprites/spr_tiro_auro/spr_tiro_auro.yy",},
     {"name":"spr_tiro_guimbos","order":3,"path":"sprites/spr_tiro_guimbos/spr_tiro_guimbos.yy",},
     {"name":"spr_tornado","order":4,"path":"sprites/spr_tornado/spr_tornado.yy",},

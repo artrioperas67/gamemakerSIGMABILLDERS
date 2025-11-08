@@ -101,6 +101,7 @@
     {"id":{"name":"spr_reset_game","path":"sprites/spr_reset_game/spr_reset_game.yy",},},
     {"id":{"name":"spr_sair","path":"sprites/spr_sair/spr_sair.yy",},},
     {"id":{"name":"spr_taifu","path":"sprites/spr_taifu/spr_taifu.yy",},},
+    {"id":{"name":"spr_teste","path":"sprites/spr_teste/spr_teste.yy",},},
     {"id":{"name":"spr_tiro_auro","path":"sprites/spr_tiro_auro/spr_tiro_auro.yy",},},
     {"id":{"name":"spr_tiro_guimbos","path":"sprites/spr_tiro_guimbos/spr_tiro_guimbos.yy",},},
     {"id":{"name":"spr_tiro_nave","path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",},},
