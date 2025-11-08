@@ -1,15 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tiro_nave",
+  "%Name":"obj_ultimatefireball",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_fireboy","path":"objects/obj_fireboy/obj_fireboy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_birdboy","path":"objects/obj_birdboy/obj_birdboy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tiro_nave",
+  "name":"obj_ultimatefireball",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_projeteis",
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tiro_nave",
-    "path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",
+    "name":"spr_ultimatefireball",
+    "path":"sprites/spr_ultimatefireball/spr_ultimatefireball.yy",
   },
   "spriteMaskId":null,
   "visible":true,
