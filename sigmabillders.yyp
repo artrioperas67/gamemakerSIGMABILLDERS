@@ -73,17 +73,6 @@
     {"id":{"name":"song_1","path":"sounds/song_1/song_1.yy",},},
     {"id":{"name":"song_dois_ror","path":"sounds/song_dois_ror/song_dois_ror.yy",},},
 
-    {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
- parent of a9a734d (aoba)
-
-    {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
- parent of a9a734d (aoba)
-
-    {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
- parent of a9a734d (aoba)
-
-    {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
- parent of a9a734d (aoba)
 
     {"id":{"name":"nigger_porra","path":"sprites/nigger_porra/nigger_porra.yy",},},
  parent of a9a734d (aoba)
@@ -116,8 +105,6 @@
     {"id":{"name":"spr_tiro_guimbos","path":"sprites/spr_tiro_guimbos/spr_tiro_guimbos.yy",},},
     {"id":{"name":"spr_tiro_nave","path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",},},
 
-    {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
- parent of a9a734d (aoba)
 
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
  parent of a9a734d (aoba)
@@ -125,6 +112,11 @@
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
  parent of a9a734d (aoba)
 
+    {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
+ parent of a9a734d (aoba)
+
+    {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
+ parent of a9a734d (aoba)
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
  parent of a9a734d (aoba)
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
