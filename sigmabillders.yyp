@@ -53,6 +53,7 @@
     {"id":{"name":"obj_controle_sala_gameover","path":"objects/obj_controle_sala_gameover/obj_controle_sala_gameover.yy",},},
     {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
     {"id":{"name":"obj_energia","path":"objects/obj_energia/obj_energia.yy",},},
+    {"id":{"name":"obj_fireboy","path":"objects/obj_fireboy/obj_fireboy.yy",},},
     {"id":{"name":"obj_guimbos","path":"objects/obj_guimbos/obj_guimbos.yy",},},
     {"id":{"name":"obj_mentor","path":"objects/obj_mentor/obj_mentor.yy",},},
     {"id":{"name":"obj_nave_explosao","path":"objects/obj_nave_explosao/obj_nave_explosao.yy",},},
