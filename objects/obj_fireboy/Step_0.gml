@@ -1,42 +1,31 @@
-if (global.congelado) {
-    speed = 0;
-    exit;
-}
-if (!entrou) {
-    y = lerp(y, alvo_y, vel_descida);
+vspeed += gravidade;
 
-    if (abs(y - alvo_y) < 1) {
-        y = alvo_y;
-        entrou = true;
-    }
+// Limita velocidade vertical
+vspeed = clamp(vspeed, -velocidade_max, velocidade_max);
 
-    exit; // não faz mais nada até terminar a entrada
-}
+// Oscilação horizontal leve
+hspeed += random_range(-0.05, 0.05);
 
-// === MOVIMENTO LATERAL (Direita ↔ Esquerda) ===
-x += spd * dir;
+// Limita movimento lateral
+hspeed = clamp(hspeed, -limite_horizontal, limite_horizontal);
 
-x += 1 * dir; // velocidade do andar dele
-if (x < left_bound || x > right_bound) {
-    dir *= -1;
-}
+// Atualiza posição
+x += hspeed;
+y += vspeed;
 
-fire_timer--;
-if (fire_timer <= 0) {
-    fire_timer = fire_delay;
+// Faz girar como meteoro
+image_angle += 5;
 
-    var t = instance_create_layer(x, y, "Instances", obj_balainimiga);
-    t.direction = 270;  // 270 = para baixo
-    t.speed = 6;        // velocidade fixa
+// Detecta chão via código
+if (y >= chao_y) {
+    // Garante que pare exatamente no chão
+    y = chao_y;
+
+    // Destroi o meteoro
+    instance_destroy();
 }
 
-if (global.jogador_morrendo) {
-    spd = 0;
-    image_speed = 0;
-	fire_delay = 0;
-	vel_descida = 0;
-	dir = 0;
-	fall_speed = 0;
-	caindo = false;
-    exit;
+// Se sair da tela (caso falhe o chão)
+if (y > room_height + 100) {
+    instance_destroy();
 }

@@ -1,23 +1,15 @@
-// velocidade de movimento lateral
-spd = 1; 
-hp = 3;
+vspeed = random_range(2, 5);
+hspeed = random_range(-1.5, 1.5);
 
-// direção inicial (1 = direita, -1 = esquerda)
-dir = choose(1, -1); 
+// Gravidade
+gravidade = 0.25;
 
-// até onde ele pode ir na tela
-left_bound = 444;
-right_bound = 1215;
+// Rotação inicial
+image_angle = random(360);
 
-fall_speed = 6;
+// Limites
+velocidade_max = 10;  // velocidade vertical máxima
+limite_horizontal = 2; // limite de movimento lateral
 
-// ele começa caindo
-caindo = true;
-alvo_y = 150;
-vel_descida = 0.02;
-entrou = false;
-
-fire_delay = 120; 
-fire_timer = fire_delay;
-left_bound = 444;  // limite esquerdo do mapa
-right_bound = 1215; // limite direito do mapa
+// Posição do "chão"
+chao_y = room_height - 64; // altura do chão (ajuste conforme sua room)
