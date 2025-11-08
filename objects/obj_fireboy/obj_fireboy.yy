@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_inimigo_fogo",
-    "path":"sprites/spr_inimigo_fogo/spr_inimigo_fogo.yy",
+    "name":"spr_fireboy",
+    "path":"sprites/spr_fireboy/spr_fireboy.yy",
   },
   "spriteMaskId":null,
   "visible":true,
