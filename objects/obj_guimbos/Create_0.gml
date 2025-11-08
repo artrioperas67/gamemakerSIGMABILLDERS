@@ -1,6 +1,11 @@
-falling = true;
+alvo_y = 10;
+vel_descida = 0.6;
+entrou = false;
+global.congelado = true;
+global.boss_congelando = true; // congela tudo quando ele iniciar a entrada
 
-alvo_y = 200;
+fire_rate = 120;
+fire_timer = fire_rate;
 
-fire_rate = 175;
-fire_timer = irandom_range(0, fire_rate); 
+hp = 100;
+hp_max = 100;

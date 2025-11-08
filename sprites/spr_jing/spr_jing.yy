@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_jing",
   "bboxMode":0,
   "bbox_bottom":129,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dfd8515e-86dd-4131-9bcf-31e3e826d71c","name":"dfd8515e-86dd-4131-9bcf-31e3e826d71c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d19577fa-f77e-4a98-a730-c0ed56399517","name":"d19577fa-f77e-4a98-a730-c0ed56399517","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dfd8515e-86dd-4131-9bcf-31e3e826d71c","name":"dfd8515e-86dd-4131-9bcf-31e3e826d71c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d19577fa-f77e-4a98-a730-c0ed56399517","name":"d19577fa-f77e-4a98-a730-c0ed56399517","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -60,7 +60,7 @@
     },
     "name":"spr_jing",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":0.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
