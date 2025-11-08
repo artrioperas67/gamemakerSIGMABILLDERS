@@ -64,8 +64,11 @@
     {"id":{"name":"obj_tiro_nave","path":"objects/obj_tiro_nave/obj_tiro_nave.yy",},},
     {"id":{"name":"obj_tornado","path":"objects/obj_tornado/obj_tornado.yy",},},
     {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},},
+    {"id":{"name":"obj_ultimatefireball","path":"objects/obj_ultimatefireball/obj_ultimatefireball.yy",},},
     {"id":{"name":"obj_wave_controller","path":"objects/obj_wave_controller/obj_wave_controller.yy",},},
     {"id":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
+    {"id":{"name":"rm_fase2","path":"rooms/rm_fase2/rm_fase2.yy",},},
+    {"id":{"name":"rm_fase3","path":"rooms/rm_fase3/rm_fase3.yy",},},
     {"id":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_primeira_cutscene","path":"rooms/rm_primeira_cutscene/rm_primeira_cutscene.yy",},},
@@ -101,7 +104,11 @@
     {"id":{"name":"spr_tiro_auro","path":"sprites/spr_tiro_auro/spr_tiro_auro.yy",},},
     {"id":{"name":"spr_tiro_guimbos","path":"sprites/spr_tiro_guimbos/spr_tiro_guimbos.yy",},},
     {"id":{"name":"spr_tiro_nave","path":"sprites/spr_tiro_nave/spr_tiro_nave.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_tornado","path":"sprites/spr_tornado/spr_tornado.yy",},},
+=======
+    {"id":{"name":"spr_ultimatefireball","path":"sprites/spr_ultimatefireball/spr_ultimatefireball.yy",},},
+>>>>>>> Stashed changes
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -110,6 +117,8 @@
     {"roomId":{"name":"rm_gameover","path":"rooms/rm_gameover/rm_gameover.yy",},},
     {"roomId":{"name":"rm_fase1","path":"rooms/rm_fase1/rm_fase1.yy",},},
     {"roomId":{"name":"rm_primeira_cutscene","path":"rooms/rm_primeira_cutscene/rm_primeira_cutscene.yy",},},
+    {"roomId":{"name":"rm_fase2","path":"rooms/rm_fase2/rm_fase2.yy",},},
+    {"roomId":{"name":"rm_fase3","path":"rooms/rm_fase3/rm_fase3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

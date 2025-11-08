@@ -14,7 +14,7 @@ fall_speed = 6;
 // ele começa caindo
 caindo = true;
 alvo_y = 150;
-vel_descida = 0.02;
+vel_descida = 0.1;
 entrou = false;
 
 fire_delay = 120; 

@@ -42,7 +42,10 @@
     {"name":"obj_tiro_nave","order":3,"path":"objects/obj_tiro_nave/obj_tiro_nave.yy",},
     {"name":"obj_tornado","order":8,"path":"objects/obj_tornado/obj_tornado.yy",},
     {"name":"obj_tutorial","order":5,"path":"objects/obj_tutorial/obj_tutorial.yy",},
+    {"name":"obj_ultimatefireball","order":5,"path":"objects/obj_ultimatefireball/obj_ultimatefireball.yy",},
     {"name":"obj_wave_controller","order":4,"path":"objects/obj_wave_controller/obj_wave_controller.yy",},
+    {"name":"rm_fase2","order":4,"path":"rooms/rm_fase2/rm_fase2.yy",},
+    {"name":"rm_fase3","order":5,"path":"rooms/rm_fase3/rm_fase3.yy",},
     {"name":"rm_gameover","order":2,"path":"rooms/rm_gameover/rm_gameover.yy",},
     {"name":"rm_menu","order":3,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"rm_primeira_cutscene","order":1,"path":"rooms/rm_primeira_cutscene/rm_primeira_cutscene.yy",},
@@ -72,6 +75,10 @@
     {"name":"spr_taifu","order":2,"path":"sprites/spr_taifu/spr_taifu.yy",},
     {"name":"spr_tiro_auro","order":1,"path":"sprites/spr_tiro_auro/spr_tiro_auro.yy",},
     {"name":"spr_tiro_guimbos","order":3,"path":"sprites/spr_tiro_guimbos/spr_tiro_guimbos.yy",},
+<<<<<<< Updated upstream
     {"name":"spr_tornado","order":4,"path":"sprites/spr_tornado/spr_tornado.yy",},
+=======
+    {"name":"spr_ultimatefireball","order":4,"path":"sprites/spr_ultimatefireball/spr_ultimatefireball.yy",},
+>>>>>>> Stashed changes
   ],
 }

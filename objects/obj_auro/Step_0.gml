@@ -7,6 +7,7 @@ if (!is_dead) {
     if (hmove > 0) image_xscale = 1;
 }
 
+<<<<<<< Updated upstream
 if (invincible) {
     inv_timer -= 1;
     blink_timer += 1;
@@ -17,6 +18,8 @@ if (invincible) {
     }
 }
 
+=======
+>>>>>>> Stashed changes
 var half_w = sprite_get_width(sprite_index) * 0.5;
 var half_h = sprite_get_height(sprite_index) * 0.5;
 
@@ -42,6 +45,7 @@ if (is_dead) {
     }
 }
 
+<<<<<<< Updated upstream
 if (!poder_ativo && poder_atual >= poder_max) {
     // jogador pode ativar com a tecla X
     if (keyboard_check_pressed(ord("X"))) {
@@ -54,5 +58,11 @@ if (!poder_ativo && poder_atual >= poder_max) {
             var pos_y = irandom_range(top_bound + 100, bottom_bound - 100);
             instance_create_layer(pos_x, pos_y, "Instances", obj_tornado);
         }
+=======
+if (!global.congelado && pode_atirar && keyboard_check(ord("Z"))) {
+    if (alarm[0] <= 0) {
+        instance_create_layer(x, y, "Instances", obj_tiro_auro);
+        alarm[0] = 15; // tempo entre tiros (menor = atira mais rápido)
+>>>>>>> Stashed changes
     }
 }
