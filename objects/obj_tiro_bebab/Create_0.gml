@@ -1,3 +1,3 @@
-spd = 9;
+spd = 12;
 speed = 9
 direction = point_direction(x, y, obj_nave.x, obj_nave.y);
