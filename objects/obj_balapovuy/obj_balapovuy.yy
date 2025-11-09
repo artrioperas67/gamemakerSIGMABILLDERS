@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tornado",
+  "%Name":"obj_balapovuy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_auro","path":"objects/obj_auro/obj_auro.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tornado",
+  "name":"obj_balapovuy",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_personagens",
-    "path":"folders/Objetos/obj_personagens.yy",
+    "name":"obj_projeteis",
+    "path":"folders/Objetos/obj_projeteis.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tornado",
-    "path":"sprites/spr_tornado/spr_tornado.yy",
+    "name":"spr_balapovuy",
+    "path":"sprites/spr_balapovuy/spr_balapovuy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

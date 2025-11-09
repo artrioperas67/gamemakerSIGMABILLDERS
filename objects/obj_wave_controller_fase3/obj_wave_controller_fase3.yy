@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tornado",
+  "%Name":"obj_wave_controller_fase3",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tornado",
+  "name":"obj_wave_controller_fase3",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj_personagens",
-    "path":"folders/Objetos/obj_personagens.yy",
+    "name":"obj_salas_controles",
+    "path":"folders/Objetos/obj_salas_controles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_tornado",
-    "path":"sprites/spr_tornado/spr_tornado.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

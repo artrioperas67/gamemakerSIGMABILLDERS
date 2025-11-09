@@ -1,13 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tornado",
+  "%Name":"obj_olho",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_tiro_auro","path":"objects/obj_tiro_auro/obj_tiro_auro.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tornado",
+  "name":"obj_olho",
   "overriddenProperties":[],
   "parent":{
     "name":"obj_personagens",
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tornado",
-    "path":"sprites/spr_tornado/spr_tornado.yy",
+    "name":"spr_olho",
+    "path":"sprites/spr_olho/spr_olho.yy",
   },
   "spriteMaskId":null,
   "visible":true,
