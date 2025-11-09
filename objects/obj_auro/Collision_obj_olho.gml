@@ -18,4 +18,4 @@ xspd = 0;
 yspd = 0;
 
 // Alarme para trocar de room/game over
-alarm[0] = room_speed * 1.5; // 1.5 segundos de delay
+alarm[0] = room_speed * 1.5; 

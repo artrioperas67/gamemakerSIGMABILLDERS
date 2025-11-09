@@ -4,10 +4,10 @@ if (mouse_check_button_pressed(mb_left)) {
             room_goto(rm_fase3);
             break;
         case 1:
-            game_end();
+            show_message("Opções ainda não disponíveis!");
             break;
         case 2:
-			show_message("Opções ainda não disponíveis!");
+            game_end();
             break;
     }
 }
