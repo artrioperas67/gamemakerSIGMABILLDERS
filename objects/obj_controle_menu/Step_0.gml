@@ -1,7 +1,7 @@
 if (mouse_check_button_pressed(mb_left)) {
     switch (selecionado) {
         case 0:
-            room_goto(rm_fase1);
+            room_goto(rm_fase3);
             break;
         case 1:
             show_message("Opções ainda não disponíveis!");

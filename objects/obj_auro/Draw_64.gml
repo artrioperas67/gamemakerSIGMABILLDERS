@@ -57,3 +57,6 @@ draw_rectangle(_poder_x1, _poder_y1, _poder_w, _poder_y1 + _poder_altura, false)
 draw_set_color(c_white);
 draw_rectangle(_poder_x1, _poder_y1, _poder_x2, _poder_y1 + _poder_altura, true);
 
+if (keyboard_check_pressed(vk_f3)) {
+    global.debug_area = !global.debug_area;
+}

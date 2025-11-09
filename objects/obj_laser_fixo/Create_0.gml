@@ -1,0 +1,1 @@
+tempo_ativo = room_speed * 3;
