@@ -6,7 +6,7 @@ global.congelado = true;
 global.boss_congelando = true;
 
 morreu = false;
-hp = 200;
+hp = 250;
 hp_max = hp;
 tempo_pos_morte = -1;
 

@@ -14,7 +14,7 @@ fireboys_por_wave = [0, 0, 2, 3, 4];
 // --- LIMITES DE SPAWN ---
 left_spawn = 444;
 right_spawn = 1215;
-top_spawn   = -100;
+top_spawn = -100;
 
 // --- CHEFE ---
 boss_spawned = false;
