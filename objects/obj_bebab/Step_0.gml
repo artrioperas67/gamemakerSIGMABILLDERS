@@ -23,12 +23,26 @@ vspd = 0;
 // Timer do tiro
 shot_timer--;
 
-if (shot_timer <= 0) {
-    shot_timer = shot_cooldown;
+if (shot_timer <= 0 && rajada_contador == 0) {
+    rajada_contador = rajada_max;
+    rajada_timer = rajada_intervalo;
+}
 
-    // Cria o tiro apontando pra baixo (ou na direção do jogador se quiser depois)
-    var t = instance_create_layer(x, y + 10, "Instances", obj_tiro_bebab);
-    t.vspd = 6; // velocidade do projétil
+if (rajada_contador > 0) {
+    rajada_timer--;
+
+    if (rajada_timer <= 0) {
+        // Cria o projétil numa posição simples abaixo do inimigo
+        var t = instance_create_layer(x, y + 10, "Instances", obj_tiro_bebab);
+        t.vspd = 8;
+
+        rajada_contador--;
+        rajada_timer = rajada_intervalo;
+
+        if (rajada_contador == 0) {
+            shot_timer = shot_cooldown;
+        }
+    }
 }
 
 if (global.jogador_morrendo) {

@@ -12,9 +12,10 @@ momento_descida = true;
 altura_target = 58; // altura onde ele vai parar e começar a patrulhar
 vspd = 3; // velocidade que ele vai descer
 
-// Limites da área
-left_bound   = 444;
-right_bound  = 1215;
+left_bound = 430;
+right_bound = 1230;
+top_bound = 0;
+bottom_bound = room_height;
 
 // Status
 hp = 2;
