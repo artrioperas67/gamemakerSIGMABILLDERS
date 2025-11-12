@@ -6,9 +6,8 @@ global.congelado = true;
 global.boss_congelando = true;
 
 morreu = false;
-hp = 250;
+hp = 200;
 hp_max = hp;
-tempo_pos_morte = -1;
 
 estado = "normal";
 timer_estado = 0;
@@ -27,4 +26,4 @@ indice_kamikks = 0;
 timer_kamikks = 0;
 intervalo_kamikks = room_speed * 1.5;
 
-tipo_ataque = ""; // "kamikks" ou "laser"
+tipo_ataque = "";

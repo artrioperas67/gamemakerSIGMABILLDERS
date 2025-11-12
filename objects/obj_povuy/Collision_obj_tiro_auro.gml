@@ -1,16 +1,11 @@
 if (is_dead) exit;
 
+// Dano
 hp -= other.damage;
+instance_destroy(other); // só uma vez
 
+// Morre se HP acabar
 if (hp <= 0) {
     is_dead = true;
-
-    // Drop de energia (50%)
-    if (random_range(0, 1) < drop_chance) {
-        instance_create_layer(x, y, "Instances", obj_energia);
-    }
-
-    instance_destroy();
+    instance_destroy(); // destrói o próprio obj_povuy
 }
-
-with (other) instance_destroy();

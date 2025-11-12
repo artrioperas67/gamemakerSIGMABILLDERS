@@ -1,11 +1,14 @@
-alvo_y = 10;
+alvo_y = 200;
+fire_rate  = 120;
+fire_timer = fire_rate;
 vel_descida = 0.6;
 entrou = false;
+
 global.congelado = true;
-global.boss_congelando = true; // congela tudo quando ele iniciar a entrada
+global.boss_congelando = true;
 
-fire_rate = 120;
-fire_timer = fire_rate;
+morreu = false;
+hp = 150;
+hp_max = hp;
 
-hp = 100;
-hp_max = 100;
+tempo_pos_morte = -1; // -1 = não começou a contagem

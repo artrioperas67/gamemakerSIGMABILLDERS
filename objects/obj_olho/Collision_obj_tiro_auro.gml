@@ -1,16 +1,16 @@
 if (is_dead) exit;
 
-hp -= other.damage;
-
-if (hp <= 0) {
-    is_dead = true;
-
-    // Drop de energia (50%)
-    if (random_range(0, 1) < drop_chance) {
-        instance_create_layer(x, y, "Instances", obj_energia);
-    }
-
-    instance_destroy();
+// Dano seguro
+if (variable_instance_exists(other, "damage")) {
+    hp -= other.damage;
+} else {
+    hp -= 1;
 }
 
-with (other) instance_destroy();
+// Destrói o objeto que colidiu
+instance_destroy(other);
+
+// Verifica morte
+if (hp <= 0) {
+    is_dead = true;
+}

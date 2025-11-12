@@ -5,18 +5,10 @@ fonte_menu = font_menu_inicial;
 menu_sprites = [
     spr_jogar,
     spr_sair,
-	spr_creditos
+    spr_creditos
 ];
-var largura = 1280;
-var altura = 720;
 
-window_set_size(largura, altura);
-
-window_center();
-
-var cam = view_camera[0];
-
-if (cam != noone) {
-    camera_set_view_size(cam, largura, altura);
-}
-
+// fade secreto (começa desligado)
+global.fade_ativo = false;
+global.fade_alpha = 0;
+global.fade_room  = noone;

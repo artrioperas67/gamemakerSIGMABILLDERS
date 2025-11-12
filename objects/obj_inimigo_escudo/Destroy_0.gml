@@ -1,0 +1,1 @@
+effect_create_above(ef_explosion,x,y,2, c_purple)

@@ -10,7 +10,7 @@ switch (state) {
         } else {
             // Chegou ao centro → começa o diálogo
             state = "talk";
-            instance_create_layer(x, y - 80, "Instances", obj_dialogue);
+            instance_create_layer(x, y - 80, "Instances_2", obj_dialogue);
             image_speed = 0;
         }
     break;
