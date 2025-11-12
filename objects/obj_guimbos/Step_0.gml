@@ -37,7 +37,6 @@ if (tempo_pos_morte > 0) {
 
     if (tempo_pos_morte == 0) {
         var m = instance_create_layer(x, y - 80, "Instances", obj_mentor_fim);
-        show_debug_message("Mentor criado em: " + string(m.x) + ", " + string(m.y));
 
         var d = instance_create_layer(50, 500, "GUI", obj_dialogue_fim);
 

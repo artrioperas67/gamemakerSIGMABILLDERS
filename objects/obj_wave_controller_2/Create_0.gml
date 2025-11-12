@@ -1,5 +1,5 @@
 wave = 1;
-max_waves = 1;
+max_waves = 11;
 wave_ativa = false;
 inimigos_spawnados = 0;
 

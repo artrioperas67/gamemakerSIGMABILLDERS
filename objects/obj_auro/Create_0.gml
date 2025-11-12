@@ -5,8 +5,8 @@ yspd = 0;
 
 global.jogador_morrendo = false;
 global.jogo_pausado = false;
-hp = 5;
-max_hp = 5;
+hp = 823794;
+max_hp = 823794;
 
 invincible = false;
 inv_timer = 0;

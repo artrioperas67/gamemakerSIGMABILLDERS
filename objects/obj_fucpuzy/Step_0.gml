@@ -1,8 +1,13 @@
-// Entrada do boss
+// =============================================
+// MORTE DO BOSS - trava tudo e espera trocar sala
+// =============================================
+if (morreu) exit;
+
+
+// ===== Entrada do Boss
 if (!entrou) {
     global.congelado = true;
     y += vel_descida;
-
     if (y >= alvo_y) {
         y = alvo_y;
         entrou = true;
@@ -11,7 +16,8 @@ if (!entrou) {
     exit;
 }
 
-// Morte do boss
+
+// ===== Checagem de Morte
 if (entrou && hp <= 0 && !morreu) {
     morreu = true;
 
@@ -21,9 +27,18 @@ if (entrou && hp <= 0 && !morreu) {
     global.congelado = true;
     global.boss_morreu = true;
 
-    tempo_pos_morte = room_speed * 2;
+    // mata tudo que ele spawnou
+    with (obj_tiro_fucpuzy) instance_destroy();
+    with (obj_kamikk)       instance_destroy();
+    with (obj_laser_avisador) instance_destroy();
+
+    // espera 3 segundos e troca sala no alarm 0
+    alarm[0] = room_speed * 3;
     exit;
 }
+
+
+// ====================== BOSSO VIVO DAQUI PRA BAIXO =======================
 
 // Ciclo de estado
 timer_estado++;
@@ -43,7 +58,6 @@ if (timer_estado >= intervalo_estado) {
         } else {
             tipo_ataque = "laser";
 
-            // Cria avisadores de laser
             instance_create_layer(515, 0, "Instances", obj_laser_avisador);
             instance_create_layer(835, 0, "Instances", obj_laser_avisador);
             instance_create_layer(1115, 0, "Instances", obj_laser_avisador);
@@ -53,14 +67,13 @@ if (timer_estado >= intervalo_estado) {
     }
 }
 
-// Execução dos ataques invulneráveis
+// Ataques especiais
 if (estado == "invulneravel" && ataque_executado) {
     if (tipo_ataque == "kamikks" && indice_kamikks < array_length(fila_kamikks)) {
         timer_kamikks--;
 
         if (timer_kamikks <= 0) {
             var qtd = fila_kamikks[indice_kamikks];
-
             for (var i = 0; i < qtd; i++) {
                 var px = x + irandom_range(-200, 200);
                 var py = y + 50;
@@ -76,7 +89,7 @@ if (estado == "invulneravel" && ataque_executado) {
     }
 }
 
-// Fim do ataque invulnerável
+// Termina ataque especial
 if (estado == "invulneravel") {
     var fim_kamikks = (tipo_ataque == "kamikks" && indice_kamikks >= array_length(fila_kamikks));
     var fim_laser   = (tipo_ataque == "laser" && timer_kamikks <= 0);
@@ -90,7 +103,7 @@ if (estado == "invulneravel") {
     }
 }
 
-// Rajada temporária
+// Rajadinha
 if (rajada_ativa) {
     rajada_timer--;
     if (rajada_timer <= 0) {
@@ -98,7 +111,7 @@ if (rajada_ativa) {
     }
 }
 
-// Tiros padrão e rajada
+// Tiros normais
 if (estado == "normal") {
     fire_timer--;
 

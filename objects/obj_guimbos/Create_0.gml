@@ -8,7 +8,7 @@ global.congelado = true;
 global.boss_congelando = true;
 
 morreu = false;
-hp = 100;
+hp = 150;
 hp_max = hp;
 
 tempo_pos_morte = -1; // -1 = não começou a contagem

@@ -4,7 +4,6 @@ dialogues = [
     "Use as setas para se mover, será muito útil no futuro.",
     "Use o botão Z para efetuar disparos, defenda-se dos teus inimigos.",
     "O símbolo 精 indica sua vida.",
-    "O simbolo 力 indica seu poder especial.",
     "Agora tenho que ir. Adeus."
 ];
 
